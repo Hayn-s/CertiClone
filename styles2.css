@@ -1,0 +1,24 @@
+.file-tab{background:#2d2d2d;color:#bbb;border:1px solid #111;border-bottom:none;border-radius:6px 6px 0 0;padding:6px 14px;font-size:13px}
+.file-tab.active{background:#1e1e1e;color:#fff;border-top:2px solid #1f6fbf}
+.ws-btn{background:#0e639c;border:1px solid #0b4f7d;color:#fff;border-radius:4px;padding:6px 12px;font-size:13px}
+.ws-btn.reset{background:#3a3a3a;border-color:#222}
+.ws-body{flex:1;min-height:0;display:flex}
+#editor{flex:1;min-width:0;background:#1e1e1e;color:#e6e6e6;border:none;outline:none;resize:none;font-family:Consolas,monospace;font-size:13.5px;line-height:1.55;padding:12px}
+.preview-pane{flex:1;min-width:0;background:#fff;display:flex;flex-direction:column;border-left:2px solid #000}
+.preview-label{background:#f0f0f0;color:#333;font-size:12px;padding:5px 10px;border-bottom:1px solid #ccc;text-transform:uppercase;letter-spacing:.06em}
+#preview{flex:1;border:none;background:#fff}
+#dock{flex:0 0 30%;min-height:250px;display:flex;flex-direction:column;background:#e7e7e7;border-top:4px solid #1f6fbf}
+.dock-header{flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;background:#333;color:#fff;padding:7px 14px;font-size:15px}
+.dock-header .proj{font-weight:600}
+.dock-header .exam-name{font-weight:400;color:#cfe3f7;font-size:13px;margin-left:10px}
+#timer{font-family:Consolas,monospace;font-weight:700;font-size:16px;background:#000;border-radius:4px;padding:3px 12px;color:#7CFC00}
+#timer.low{color:#ff5252}
+#progressbar{flex:0 0 auto;height:6px;background:#c9c9c9}
+#progressbar>div{height:100%;width:0;background:#1f6fbf;transition:width .3s}
+.dock-main{flex:1;min-height:0;display:flex;gap:8px;padding:8px 10px}
+#task-tabs{flex:0 0 168px;overflow-y:auto;background:#f4f4f4;border:1px solid #b5b5b5;border-radius:4px;padding:6px}
+.task-tab{display:flex;align-items:center;gap:6px;width:100%;text-align:left;margin-bottom:5px;padding:8px 9px;font-size:13.5px;border:1px solid #a9a9a9;border-radius:4px;background:linear-gradient(180deg,#fff,#e2e2e2)}
+.task-tab.active{background:linear-gradient(180deg,#5b9bd5,#2f6db3);color:#fff;border-color:#1f4e7d;font-weight:600}
+.task-tab .badge{margin-left:auto;font-size:14px}
+.badge.done{color:#2e7d32}.task-tab.active .badge.done{color:#b9f6ca}
+.badge.flag{color:#c62828}.task-tab.active .badge.flag{color:#ffccbc}

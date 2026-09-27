@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CertiClone — Compass Study Simulator</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles2.css">
+<link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+<div id="setup-screen">
+<div class="setup-card">
+<h1>CertiClone <span style="font-size:15px;color:#666;font-weight:400;">Compass Study Simulator</span></h1>
+<p class="sub">A 1:1-style clone of the Certiport project-based exam engine — <b>study tool only</b>. No lockdown, no proctoring, no fullscreen enforcement.</p>
+<div class="setup-stats" id="setup-stats"></div>
+<div class="btnrow">
+<button class="btn primary" id="btn-start-default">Start Exam with Reviewer Data</button>
+<label class="btn ghost" for="file-input" style="margin:0;">Upload JSON File</label>
+<input type="file" id="file-input" accept=".json,application/json" hidden>
+<button class="btn ghost" id="btn-load-sample">Load Sample Schema Example</button>
+</div>
+<div id="setup-error"></div>
+<h3 style="margin:14px 0 6px;font-size:15px;">Or paste a JSON array / exam object:</h3>
+<textarea id="paste-area" placeholder="Paste your exam JSON here, then click Use Pasted JSON."></textarea>
+<div class="btnrow"><button class="btn primary" id="btn-use-pasted">Use Pasted JSON</button></div>
+<details class="schema">
+<summary><b>Expected JSON schema</b> (click to expand — same shape powers the whole engine)</summary>
+<pre id="schema-pre"></pre>
+</details>
+</div>
+</div>
+<div id="exam-app" hidden>
+<section id="workspace">
+<div class="ws-toolbar">
+<div class="ws-title">Mock Workspace — <b id="ws-context">Project 1</b> <span style="font-size:12px;">(practice area, not graded)</span></div>
+<button class="file-tab active" id="tab-html">index.html</button>
+<button class="file-tab" id="tab-css">styles.css</button>
+<button class="ws-btn" id="btn-run">Run Preview</button>
+<button class="ws-btn reset" id="btn-reset-code">Reset Code</button>
+</div>
+<div class="ws-body">
+<textarea id="editor" spellcheck="false"></textarea>
+<div class="preview-pane">
+<div class="preview-label">Live Preview</div>
+<iframe id="preview" title="preview" sandbox="allow-same-origin"></iframe>
+</div>
+</div>
+</section>
+<section id="dock">
+<div id="progressbar"><div></div></div>
+<div class="dock-header">
+<div><span class="proj" id="project-label">Project 1 of 7</span><span class="exam-name" id="exam-name"></span></div>
+<div id="timer">50:00</div>
+</div>
+<div class="dock-main">
+<div id="task-tabs"></div>
+<div id="instruction-panel">
+<div class="instr-meta"><b id="task-label">Task 1</b><span id="task-ref"></span>
+<button id="study-btn" title="Study Mode: reveal the correct answer">Show Answer</button>
+</div>
+<p id="instruction-text"></p>
+<div id="item-host" class="item-host"></div>
+</div>
+</div>
+<div class="item-bar" id="item-bar" hidden>
+<button class="btn primary" id="btn-check" title="Grade the answer you just built">Check Answer</button>
+<button class="btn ghost" id="btn-clear-item" title="Reset this question">Clear</button>
+<button class="btn ghost" id="btn-wide" title="Give the question pane more room">Widen Question</button>
+<span class="verdict" id="item-feedback"></span>
+</div>
+<div class="action-bar">
+<button class="btn" id="btn-restart">Restart Project</button>
+<button class="btn" id="btn-review">Mark for Review</button>
+<button class="btn" id="btn-complete">Mark Complete</button>
+<button class="btn" id="btn-summary">Summary</button>
+<span class="spacer"></span>
+<button class="btn" id="btn-prev">Previous Project</button>
+<button class="btn" id="btn-next">Next Project</button>
+</div>
+</section>
+</div>
+<div class="overlay" id="study-modal" hidden>
+<div class="modal">
+<header>Study Mode — Correct Answer <button class="x" id="study-close">Close</button></header>
+<div class="mbody">
+<h3>Correct Answer</h3>
+<div class="ans-box" id="study-answer"></div>
+<h3>Explanation</h3>
+<div class="exp-box" id="study-expl"></div>
+</div>
+</div>
+</div>
+<div class="overlay" id="summary-screen" hidden>
+<div class="modal" style="width:min(920px,100%);">
+<header>Exam Summary <button class="x" id="sum-close">X</button></header>
+<div class="mbody">
+<p class="legend">Unseen (blank) | Viewed (eye) | Completed (check) | Marked for Review (flag) — click any task to jump to it.</p>
+<div class="sum-grid" id="sum-grid"></div>
+</div>
+<footer>
+<button class="btn ghost" id="btn-return">Return to Exam</button>
+<button class="btn primary" id="btn-finish">Finish Exam</button>
+</footer>
+</div>
+</div>
+<div class="overlay" id="results-screen" hidden>
+<div class="modal">
+<header>Exam Results <button class="x" id="res-close">X</button></header>
+<div class="mbody">
+<div class="results-stats">
+<div class="bigstat"><div class="n" id="res-done">0</div><div class="l">Tasks Completed</div></div>
+<div class="bigstat"><div class="n" id="res-total">0</div><div class="l">Total Tasks</div></div>
+<div class="bigstat"><div class="n" id="res-flag">0</div><div class="l">Marked for Review</div></div>
+<div class="bigstat"><div class="n" id="res-score">–</div><div class="l">Checked Correct</div></div>
+<div class="bigstat"><div class="n" id="res-time">0:00</div><div class="l">Time Used</div></div>
+</div>
+<div id="res-detail"></div>
+</div>
+<footer>
+<button class="btn ghost" id="btn-new-data">New Data / Setup</button>
+<button class="btn ghost" id="btn-back-exam">Return to Exam</button>
+<button class="btn primary" id="btn-restart-exam">Restart Exam</button>
+</footer>
+</div>
+</div>
+<script src="exam-data.js"></script>
+<script src="widgets.js"></script>
+<script src="app.js"></script>
+<script src="app2.js"></script>
+<script src="app3.js"></script>
+</body>
+</html>

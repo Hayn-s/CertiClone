@@ -1,0 +1,3687 @@
+{
+ "examTitle": "HTML & CSS Reviewer - CertiClone practice set",
+ "timeLimitMinutes": 96,
+ "source": "EXAM_A_B_F_Q1-Q56.pdf",
+ "itemTypes": {
+  "choice": 19,
+  "dropblank": 9,
+  "fillblank": 1,
+  "groupchoice": 2,
+  "hotarea": 7,
+  "match": 5,
+  "multi": 1,
+  "sequence": 8,
+  "text": 6,
+  "yesno": 2
+ },
+ "projects": [
+  {
+   "projectId": 1,
+   "projectName": "HTML/CSS Reviewer - Q1-Q10",
+   "durationMinutes": 15,
+   "tasks": [
+    {
+     "taskId": 1,
+     "instruction": "You are analyzing a form that sends multiline comments to another page on the Internet. The following is the form's markup: <form action=\"http://www.contoso.com/receivecomments.asp\" method=\"post\"> Comments: <br> <textarea id=\"commetns\"></textarea> <input type=\"submit\" value=\"Submit\"> </form> No data is sent when the form is submitted. You need to solve this problem so that the data in the text box is submitted. What should you do?",
+     "correctAnswer": "C. Change the value of the method attribute to get. Completed answer area, using the source answer: <form action=\"http://www.contoso.com/receivecomments.asp\" method=\"get\"> Comments: <br> <textarea id=\"commetns\"></textarea> <input type=\"submit\" value=\"Submit\"> </form> Source key is preserved exactly as supplied in the original reviewer.",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q1-Q10 - Q1 (page 1)",
+     "item": {
+      "type": "choice",
+      "declaredType": "Multiple Choice",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are analyzing a form that sends multiline comments to another page on the Internet. The following is the form's markup:"
+       },
+       {
+        "kind": "code",
+        "text": "<form action=\"http://www.contoso.com/receivecomments.asp\" method=\"post\">"
+       },
+       {
+        "kind": "p",
+        "text": "    Comments: <br>"
+       },
+       {
+        "kind": "code",
+        "text": "    <textarea id=\"commetns\"></textarea>\n    <input type=\"submit\" value=\"Submit\">\n</form>"
+       },
+       {
+        "kind": "p",
+        "text": "No data is sent when the form is submitted. You need to solve this problem so that the data in the text box is submitted. What\nshould you do?"
+       }
+      ],
+      "source": "page 1",
+      "options": [
+       {
+        "id": "A",
+        "text": "Replace the textarea element with an input element."
+       },
+       {
+        "id": "B",
+        "text": "Set the name attribute of the textarea element."
+       },
+       {
+        "id": "C",
+        "text": "Change the value of the method attribute to get."
+       },
+       {
+        "id": "D",
+        "text": "Set the id attribute of the form element."
+       }
+      ],
+      "answer": [
+       "C"
+      ]
+     }
+    },
+    {
+     "taskId": 2,
+     "instruction": "You are designing a webpage that tests a user's ability to remember a list of ordered items in a particular category. The page must contain a header that displays the category and a list of items in that category. An example is shown in the exhibit. Fruit 1. Apple 2. Pear 3. Orange This page will test your ability to remember the order of the preceding items. Glance at the list for 3 seconds. Then close your eyes and recite the items in the order listed. How should you complete the markup? Select the appropriate segment for each blank.",
+     "correctAnswer": "Blank 1: h1 Blank 2: h1 Blank 3: ol Blank 4: ol Completed answer area: < h1 > Fruit </ h1 > < ol > <li>Apple</li> <li>Pear</li> <li>Orange</li> </ ol > <br> No answer key was visible in the supplied screenshot previously; these are the reviewer's source-supported answers: h1 and ol.",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q1-Q10 - Q2 (page 2)",
+     "item": {
+      "type": "hotarea",
+      "declaredType": "Hot Area",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are designing a webpage that tests a user's ability to remember a list of ordered items in a particular category. The page must\ncontain a header that displays the category and a list of items in that category. An example is shown in the exhibit.\nFruit\n1. Apple\n2. Pear\n3. Orange\nThis page will test your ability to remember the order of the preceding items. Glance at the list for 3 seconds. Then close your eyes\nand recite the items in the order listed.\nHow should you complete the markup? Select the appropriate segment for each blank."
+       }
+      ],
+      "source": "page 2",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 4
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "span",
+         "table",
+         "h1"
+        ],
+        "answer": "h1"
+       },
+       {
+        "id": 2,
+        "options": [
+         "span",
+         "table",
+         "h1"
+        ],
+        "answer": "h1"
+       },
+       {
+        "id": 3,
+        "options": [
+         "ol",
+         "ul",
+         "p"
+        ],
+        "answer": "ol"
+       },
+       {
+        "id": 4,
+        "options": [
+         "ol",
+         "ul",
+         "p"
+        ],
+        "answer": "ol"
+       }
+      ],
+      "pool": [
+       "Options for blanks 1 & 2: span | table | h1",
+       "Options for blanks 3 & 4: ol | ul | p",
+       "< ___(1)___ > Fruit </ ___(2)___ >",
+       "< ___(3)___ >",
+       "<li>Apple</li>",
+       "<li>Pear</li>",
+       "<li>Orange</li>",
+       "</ ___(4)___ >",
+       "<br>"
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 3,
+     "instruction": "You are creating an image link to the clients.html page. When the visitor clicks on the clients.gif graphic, the clients.html page must display in a new window. The graphic must provide text for screen readers and display text while the page is loading. How should you complete the markup?",
+     "correctAnswer": "Blank 1: a Blank 2: href=\"clients.html\" target=\"_blank\" Blank 3: img Blank 4: src=\"clients.gif\" alt=\"Clients image\" Blank 5: </a> Completed answer area: <a href=\"clients.html\" target=\"_blank\"> <img src=\"clients.gif\" alt=\"Clients image\"> </a>",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q1-Q10 - Q3 (page 3)",
+     "item": {
+      "type": "hotarea",
+      "declaredType": "Hot Area",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating an image link to the clients.html page. When the visitor clicks on the clients.gif graphic, the clients.html page must\ndisplay in a new window. The graphic must provide text for screen readers and display text while the page is loading.\nHow should you complete the markup?"
+       }
+      ],
+      "source": "page 3",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 5
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "a",
+         "img",
+         "figure"
+        ],
+        "answer": "a"
+       },
+       {
+        "id": 2,
+        "options": [
+         "src=\"clients.gif\" title=\"Clients image\"",
+         "href=\"clients.html\" target=\"_blank\"",
+         "href=\"clients.html\" target=\"_self\""
+        ],
+        "answer": "href=\"clients.html\" target=\"_blank\""
+       },
+       {
+        "id": 3,
+        "options": [
+         "a",
+         "img",
+         "figure"
+        ],
+        "answer": "img"
+       },
+       {
+        "id": 5,
+        "options": [
+         "</a>",
+         "</img>",
+         "</figure>"
+        ],
+        "answer": "</a>"
+       }
+      ],
+      "pool": [
+       "< ___(1)___ ___(2)___ >",
+       "< ___(3)___ ___(4)___ >",
+       "___(5)___",
+       "Options for blanks 1 & 3: a | img | figure",
+       "Options for blank 2: src=\"clients.gif\" title=\"Clients image\" | href=\"clients.html\" target=\"_blank\" | href=\"clients.html\" target=\"_self\" |",
+       "src=\"clients.gif\" alt=\"Clients image\"",
+       "Options for blank 4: src=\"clients.gif\" title=\"Clients image\" | href=\"clients.html\" target=\"_blank\" | href=\"clients.html\" target=\"_self\" |",
+       "src=\"clients.gif\" alt=\"Clients image\"",
+       "Options for blank 5: </a> | </img> | </figure>"
+      ],
+      "reusable": true,
+      "partial": true
+     }
+    },
+    {
+     "taskId": 4,
+     "instruction": "You need to create the following web page: Top bar: Home | About Us | Contact Us Our Mission - \"Northwind Traders - your #1 source of specialty food items and beverages.\" Center: Northwind Traders logo image, captioned \"Northwind Traders Logo,\" with the text \"Northwind Traders\" beneath it Our Guarantee - \"Northwind Traders offers availability 24 hours a day, 7 days a week, 365 days a year.\" Footer: \"Copyright (c) Northwind Traders, 2017\" Which five markup segments should you use, and in what order? Markup segments given (pool included some distractors): <footer> <hr> Copyright (c) Northwind Traders, 2017 </footer> <aside> <a href=\"#\">Home</a> <a href=\"#\">About Us</a> <a href=\"#\">Contact Us</a> </aside> <summary> <figure> <img src=\"Images/NorthwindLogo.gif\" alt=\"Northwind Traders logo\" width=\"100\" height=\"100\"> </figure> <figcaption>Northwind Traders Logo</figcaption> <p> Northwind Traders (incomplete - missing closing tags) <article> <h1>Our Mission</h1> <p> Northwind Traders - your #1 source of specialty food items and beverages. </p> </article> <article> <figure> <img src=\"Images/NorthwindLogo.gif\" alt=\"Northwind Traders logo\" width=\"100\" height=\"100\"> <figcaption>Northwind Traders Logo</figcaption> </figure> <p> Northwind Traders </p> </article>",
+     "correctAnswer": "Correct order: 1. Navigation segment <nav> <a href=\"#\">Home</a> <a href=\"#\">About Us</a> <a href=\"#\">Contact Us</a> </nav> 2. Our Mission segment <article> <h1>Our Mission</h1> <p> Northwind Traders - your #1 source of specialty food items and beverages. </p> </article> 3. Logo segment <article> <figure> <img src=\"Images/NorthwindLogo.gif\" alt=\"Northwind Traders logo\" width=\"100\" height=\"100\"> <figcaption>Northwind Traders Logo</figcaption> </figure> <p> Northwind Traders </p> </article> 4. Our Guarantee segment <article> <h1>Our Guarantee</h1> <p> Northwind Traders offers availability 24 hours a day, 7 days a week, 365 days a year. </p> </article> 5. Footer segment <footer> <hr> Copyright (c) Northwind Traders, 2017 </footer>",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q1-Q10 - Q4 (page 4)",
+     "item": {
+      "type": "sequence",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You need to create the following web page:\n Top bar: Home | About Us | Contact Us\n Our Mission - \"Northwind Traders - your #1 source of specialty food items and beverages.\"\n Center: Northwind Traders logo image, captioned \"Northwind Traders Logo,\" with the text \"Northwind Traders\" beneath it\n Our Guarantee - \"Northwind Traders offers availability 24 hours a day, 7 days a week, 365 days a year.\"\n Footer: \"Copyright (c) Northwind Traders, 2017\"\nWhich five markup segments should you use, and in what order?\nMarkup segments given (pool included some distractors):"
+       },
+       {
+        "kind": "code",
+        "text": "<footer>\n    <hr>"
+       },
+       {
+        "kind": "p",
+        "text": "    Copyright (c) Northwind Traders, 2017"
+       },
+       {
+        "kind": "code",
+        "text": "</footer>\n<aside>\n    <a href=\"#\">Home</a>\n    <a href=\"#\">About Us</a>\n    <a href=\"#\">Contact Us</a>\n</aside>\n<summary>\n    <figure>\n    <img src=\"Images/NorthwindLogo.gif\" alt=\"Northwind Traders logo\" width=\"100\" height=\"100\">\n    </figure>\n    <figcaption>Northwind Traders Logo</figcaption>\n    <p>"
+       },
+       {
+        "kind": "p",
+        "text": "    Northwind Traders\n    (incomplete - missing closing tags)"
+       },
+       {
+        "kind": "code",
+        "text": "<article>\n    <h1>Our Mission</h1>\n    <p>"
+       },
+       {
+        "kind": "p",
+        "text": "    Northwind Traders - your #1 source of specialty food items and beverages."
+       },
+       {
+        "kind": "code",
+        "text": "    </p>\n</article>\n<article>\n    <figure>\n        <img src=\"Images/NorthwindLogo.gif\" alt=\"Northwind Traders logo\" width=\"100\" height=\"100\">\n        <figcaption>Northwind Traders Logo</figcaption>\n    </figure>\n    <p>"
+       },
+       {
+        "kind": "p",
+        "text": "    Northwind Traders"
+       },
+       {
+        "kind": "code",
+        "text": "    </p>\n</article>"
+       }
+      ],
+      "source": "page 4",
+      "blocks": [
+       "<nav>\n<a href=\"#\">Home</a>\n<a href=\"#\">About Us</a>\n<a href=\"#\">Contact Us</a>\n</nav>",
+       "<article>\n<h1>Our Mission</h1>\n<p>\nNorthwind Traders - your #1 source of specialty food items and beverages.\n</p>\n</article>",
+       "<article>\n<figure>\n<img src=\"Images/NorthwindLogo.gif\" alt=\"Northwind Traders logo\" width=\"100\" height=\"100\">\n<figcaption>Northwind Traders Logo</figcaption>\n</figure>\n<p>\nNorthwind Traders\n</p>\n</article>",
+       "<article>\n<h1>Our Guarantee</h1>\n<p>\nNorthwind Traders offers availability 24 hours a day, 7 days a week, 365 days a year.\n</p>\n</article>",
+       "<footer>\n<hr>\nCopyright (c) Northwind Traders, 2017\n</footer>"
+      ],
+      "answer": [
+       "<nav>\n<a href=\"#\">Home</a>\n<a href=\"#\">About Us</a>\n<a href=\"#\">Contact Us</a>\n</nav>",
+       "<article>\n<h1>Our Mission</h1>\n<p>\nNorthwind Traders - your #1 source of specialty food items and beverages.\n</p>\n</article>",
+       "<article>\n<figure>\n<img src=\"Images/NorthwindLogo.gif\" alt=\"Northwind Traders logo\" width=\"100\" height=\"100\">\n<figcaption>Northwind Traders Logo</figcaption>\n</figure>\n<p>\nNorthwind Traders\n</p>\n</article>",
+       "<article>\n<h1>Our Guarantee</h1>\n<p>\nNorthwind Traders offers availability 24 hours a day, 7 days a week, 365 days a year.\n</p>\n</article>",
+       "<footer>\n<hr>\nCopyright (c) Northwind Traders, 2017\n</footer>"
+      ],
+      "preview": "<nav>\n<a href=\"#\">Home</a>\n<a href=\"#\">About Us</a>\n<a href=\"#\">Contact Us</a>\n</nav>\n<article>\n<h1>Our Mission</h1>\n<p>\nNorthwind Traders - your #1 source of specialty food items and beverages.\n</p>\n</article>\n<article>\n<figure>\n<img src=\"Images/NorthwindLogo.gif\" alt=\"Northwind Traders logo\" width=\"100\" height=\"100\">\n<figcaption>Northwind Traders Logo</figcaption>\n</figure>\n<p>\nNorthwind Traders\n</p>\n</article>\n<article>\n<h1>Our Guarantee</h1>\n<p>\nNorthwind Traders offers availability 24 hours a day, 7 days a week, 365 days a year.\n</p>\n</article>\n<footer>\n<hr>\nCopyright (c) Northwind Traders, 2017\n</footer>"
+     }
+    },
+    {
+     "taskId": 5,
+     "instruction": "You are creating a web form to allow visitors to sign up for a mailing list. The form will collect the information shown in the following screenshot: Alpine Ski House Mailing List First name: [text box] Last name: [text box] E-mail: [text box] A -> [ ] I wish to subscribe to the Alpine Ski House mailing list. B -> Frequency of email promotions: ( ) Daily ( ) Weekly ( ) Monthly C -> [Submit] [Reset] Which code segment will display each labeled form element?",
+     "correctAnswer": "A: <input type=\"checkbox\" name=\"subscribe\" value=\"Yes\"> B: <input type=\"radio\" name=\"frequency\" value=\"daily\" checked> C: <input type=\"submit\" value=\"Submit\"> Completed answer area: A: <input type=\"checkbox\" name=\"subscribe\" value=\"Yes\"> B: <input type=\"radio\" name=\"frequency\" value=\"daily\" checked> C: <input type=\"submit\" value=\"Submit\">",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q1-Q10 - Q5 (page 5)",
+     "item": {
+      "type": "groupchoice",
+      "declaredType": "Hot Area",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating a web form to allow visitors to sign up for a mailing list. The form will collect the information shown in the following\nscreenshot:\nAlpine Ski House Mailing List\n First name: [text box]\n Last name: [text box]\n E-mail: [text box]\n A -> [ ] I wish to subscribe to the Alpine Ski House mailing list.\n B -> Frequency of email promotions: ( ) Daily  ( ) Weekly  ( ) Monthly\n C -> [Submit] [Reset]\nWhich code segment will display each labeled form element?"
+       }
+      ],
+      "source": "page 5",
+      "groups": [
+       {
+        "label": "A",
+        "options": [
+         "<input type=\"radio\" name=\"firstname\">",
+         "<input type=\"text\" name \"checkbox\">",
+         "<input type=\"checkbox\" name=\"subscribe\" value=\"Yes\">",
+         "<input type=\"text\" name=\"Yes\">"
+        ]
+       },
+       {
+        "label": "B",
+        "options": [
+         "<input type=\"radio\" name=\"frequency\" value=\"daily\" checked>",
+         "<input type=\"radio\" name \"frequency\" value=\"weekly\">",
+         "<input type=\"submit\" value=\"Submit\">",
+         "<input type=\"text\" name=\"frequency\" value=\"daily\" checked>"
+        ]
+       },
+       {
+        "label": "C",
+        "options": [
+         "<input type=\"radio\" name=\"frequency\" value=\"daily\" checked> Daily <br>",
+         "<input type=\"checkbox\" name \"Submit\" value=\"Submit\">",
+         "<input type=\"submit\" value=\"Submit\">",
+         "<option value=\"Submit\"> Submit</option>"
+        ]
+       }
+      ],
+      "answer": [
+       "<input type=\"checkbox\" name=\"subscribe\" value=\"Yes\">",
+       "<input type=\"radio\" name=\"frequency\" value=\"daily\" checked>",
+       "<input type=\"submit\" value=\"Submit\">"
+      ]
+     }
+    },
+    {
+     "taskId": 6,
+     "instruction": "You are creating an HTML document that contains an essay with two sections. You need to make it easy for the user to navigate from the top of the document to section 2. How should you complete the markup?",
+     "correctAnswer": "Page link: <a href=\"Section2\">Section 2</a> Anchor at section 2: <a id=\"Section2\">Section 2</a> Completed answer area: The markup defining the page should be: <a href=\"Section2\">Section 2</a> The markup defining the anchor for section 2 should be: <a id=\"Section2\">Section 2</a> Source answer preserved exactly. Standard in-page HTML normally uses href=\"#Section2\" for the jump link.",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q1-Q10 - Q6 (page 6)",
+     "item": {
+      "type": "groupchoice",
+      "declaredType": "Hot Area",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating an HTML document that contains an essay with two sections. You need to make it easy for the user to navigate\nfrom the top of the document to section 2. How should you complete the markup?"
+       }
+      ],
+      "source": "page 6",
+      "groups": [
+       {
+        "label": "The markup defining the page should be",
+        "options": [
+         "<a href=\"#Section2\">Section 2</a>",
+         "<a id=\"Section2\">Section 2</a>",
+         "<a href=\"Section2\">Section 2</a>",
+         "<a target=\"#Section2\">Section 2</a>",
+         "<a target=\"#\">Section 2</a>"
+        ]
+       },
+       {
+        "label": "The markup defining the anchor for section 2 should be",
+        "options": [
+         "<a href=\"#Section2\">Section 2</a>",
+         "<a id=\"Section2\">Section 2</a>",
+         "<a href=\"Section2\">Section 2</a>",
+         "<a target=\"#Section2\">Section 2</a>",
+         "<a target=\"#\">Section 2</a>"
+        ]
+       }
+      ],
+      "answer": [
+       "<a href=\"Section2\">Section 2</a>",
+       "<a id=\"Section2\">Section 2</a>"
+      ]
+     }
+    },
+    {
+     "taskId": 7,
+     "instruction": "You are creating an HTML document that displays a list of news articles. The list has the following requirements: Each article must be its own semantic block. Each article must have a headline. Each article must have a section that contains its content. For browsers that support the feature, the content must be hidden until the user clicks to reveal it. Collapsed state: Article Headline Expanded state: Article Headline This is the article body. You need to create the markup for an article. How should you complete the markup?",
+     "correctAnswer": "Dropdown 1: <article> Dropdown 2: <details> Dropdown 3: <summary> Dropdown 4: </summary> Dropdown 5: not confirmed in the supplied screenshot Completed answer area with the confirmed structure: <article> <details> <summary> Article Headline </summary> <p> This is the article content. </p> [Dropdown 5 - not confirmed in source] </details> </article> The source screenshot cuts off before the final answer for Dropdown 5. The missing closing tag is therefore not presented as a confirmed source answer.",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q1-Q10 - Q7 (page 7)",
+     "item": {
+      "type": "sequence",
+      "declaredType": "Hot Area",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating an HTML document that displays a list of news articles. The list has the following requirements:\n Each article must be its own semantic block.\n Each article must have a headline.\n Each article must have a section that contains its content.\n For browsers that support the feature, the content must be hidden until the user clicks to reveal it.\nCollapsed state:  Article Headline\nExpanded state:  Article Headline\nThis is the article body.\nYou need to create the markup for an article. How should you complete the markup?"
+       }
+      ],
+      "source": "page 7",
+      "blocks": [
+       "<article>\n<details>\n<summary>\nArticle Headline\n</summary>\n<p> This is the article content. </p>\n[Dropdown 5 - not confirmed in source]\n</details>\n</article>",
+       "The source screenshot cuts off before the final answer for Dropdown 5. The missing closing tag is therefore not presented as a",
+       "confirmed source answer."
+      ],
+      "answer": [
+       "<article>\n<details>\n<summary>\nArticle Headline\n</summary>\n<p> This is the article content. </p>\n[Dropdown 5 - not confirmed in source]\n</details>\n</article>",
+       "The source screenshot cuts off before the final answer for Dropdown 5. The missing closing tag is therefore not presented as a",
+       "confirmed source answer."
+      ],
+      "preview": "<article>\n<details>\n<summary>\nArticle Headline\n</summary>\n<p> This is the article content. </p>\n[Dropdown 5 - not confirmed in source]\n</details>\n</article>\nThe source screenshot cuts off before the final answer for Dropdown 5. The missing closing tag is therefore not presented as a\nconfirmed source answer.",
+      "derived": true
+     }
+    },
+    {
+     "taskId": 8,
+     "instruction": "You are creating an HTML page that displays a how-to guide for a card game. You want to use the browser's default style sheet. You need to display the following content: How to Play Disregard the jokers. Then deal one card to each player until all the cards in the deck have been dealt. ___________________________________________ The player to your left plays first. How should you complete the markup? Drag the appropriate HTML elements to the correct locations. Each element may be used once, more than once, or not at all.",
+     "correctAnswer": "Blank 1: h1 Blank 2: h1 Blank 3: hr Completed answer area: <h1> How to play </h1> <p> Disregard the jokers. Then deal one card to each player until All the cards in the deck have been dealt. <p> <hr> <p> The player to your right plays first. <p> The exhibit says \"left,\" while the answer area says \"right.\" The mismatch is preserved from the source.",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q1-Q10 - Q8 (page 8)",
+     "item": {
+      "type": "dropblank",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating an HTML page that displays a how-to guide for a card game. You want to use the browser's default style sheet.\nYou need to display the following content:\nHow to Play\nDisregard the jokers. Then deal one card to each\nplayer until all the cards in the deck have been dealt.\n___________________________________________\nThe player to your left plays first.\nHow should you complete the markup? Drag the appropriate HTML elements to the correct locations. Each element may be used\nonce, more than once, or not at all."
+       }
+      ],
+      "source": "page 8",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "h1",
+         "hr",
+         "title",
+         "br",
+         "span"
+        ],
+        "answer": "h1"
+       },
+       {
+        "id": 2,
+        "options": [
+         "h1",
+         "hr",
+         "title",
+         "br",
+         "span"
+        ],
+        "answer": "h1"
+       },
+       {
+        "id": 3,
+        "options": [
+         "h1",
+         "hr",
+         "title",
+         "br",
+         "span"
+        ],
+        "answer": "hr"
+       }
+      ],
+      "pool": [
+       "h1",
+       "hr",
+       "title",
+       "br",
+       "span"
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 9,
+     "instruction": "You are creating a page on your personal website to display your family portrait. You need to make sure that browsers display the text \"Family Portrait\" before the photo is downloaded. How should you complete the markup? Drag the appropriate markup segment from the column on the left to its correct position on the right. Each markup segment may be used once, more than once, or not at all.",
+     "correctAnswer": "Blank 1: img Blank 2: src Blank 3: alt Completed answer area: <img src=\"portrait.png\" alt=\"Family Portrait\"> Unused distractors: picture, href, title.",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q1-Q10 - Q9 (page 9)",
+     "item": {
+      "type": "dropblank",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating a page on your personal website to display your family portrait. You need to make sure that browsers display the\ntext \"Family Portrait\" before the photo is downloaded.\nHow should you complete the markup? Drag the appropriate markup segment from the column on the left to its correct position on\nthe right. Each markup segment may be used once, more than once, or not at all."
+       }
+      ],
+      "source": "page 9",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "img",
+         "picture",
+         "src",
+         "href",
+         "alt",
+         "title"
+        ],
+        "answer": "img"
+       },
+       {
+        "id": 2,
+        "options": [
+         "img",
+         "picture",
+         "src",
+         "href",
+         "alt",
+         "title"
+        ],
+        "answer": "src"
+       },
+       {
+        "id": 3,
+        "options": [
+         "img",
+         "picture",
+         "src",
+         "href",
+         "alt",
+         "title"
+        ],
+        "answer": "alt"
+       }
+      ],
+      "pool": [
+       "img",
+       "picture",
+       "src",
+       "href",
+       "alt",
+       "title"
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 10,
+     "instruction": "You want to complete the pseudo class for link elements so that the links appear red when the page loads, green when the link is clicked, orange when the cursor moves over the link, and blue if the link was clicked previously. How should you complete the code? Drag the appropriate CSS selector to the correct locations. Each selector may be used once, more than once, or not at all.",
+     "correctAnswer": "Blank 1: a:link Blank 2: a:visited Blank 3: a:hover Blank 4: a:active Completed answer area: a:link {color: red} a:visited {color: blue} a:hover {color: orange} a:active {color: green} This follows the classic LVHA order: link, visited, hover, active.",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q1-Q10 - Q10 (page 10)",
+     "item": {
+      "type": "dropblank",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You want to complete the pseudo class for link elements so that the links appear red when the page loads, green when the link is\nclicked, orange when the cursor moves over the link, and blue if the link was clicked previously.\nHow should you complete the code? Drag the appropriate CSS selector to the correct locations. Each selector may be used once,\nmore than once, or not at all."
+       }
+      ],
+      "source": "page 10",
+      "template": [
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 4
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "a:active",
+         "a:visited",
+         "a:link",
+         "a:hover"
+        ],
+        "answer": "a:link"
+       },
+       {
+        "id": 2,
+        "options": [
+         "a:active",
+         "a:visited",
+         "a:link",
+         "a:hover"
+        ],
+        "answer": "a:visited"
+       },
+       {
+        "id": 3,
+        "options": [
+         "a:active",
+         "a:visited",
+         "a:link",
+         "a:hover"
+        ],
+        "answer": "a:hover"
+       },
+       {
+        "id": 4,
+        "options": [
+         "a:active",
+         "a:visited",
+         "a:link",
+         "a:hover"
+        ],
+        "answer": "a:active"
+       }
+      ],
+      "pool": [
+       "a:active",
+       "a:visited",
+       "a:link",
+       "a:hover"
+      ],
+      "reusable": true
+     }
+    }
+   ]
+  },
+  {
+   "projectId": 2,
+   "projectName": "HTML/CSS Reviewer - Q11-Q20",
+   "durationMinutes": 15,
+   "tasks": [
+    {
+     "taskId": 1,
+     "instruction": "You are designing a website for City Power & Light. You write the following markup. Line numbers are included for reference only. 01 <! DOCTYPE html> 02 <html> 03 <head> 04 <title>City Power & Light</title> 05 </head> 06 <body> 07 <p>Welcome to City Power & Light.</p> 08 </body> 09 </html> What style will be used to render the code?",
+     "correctAnswer": "A. The browser default style will be used.",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q11-Q20 - Q11 (page 11)",
+     "item": {
+      "type": "choice",
+      "declaredType": "Multiple Choice",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are designing a website for City Power & Light.\nYou write the following markup. Line numbers are included for reference only."
+       },
+       {
+        "kind": "code",
+        "text": " 01 <! DOCTYPE html>\n02 <html>\n03 <head>\n04     <title>City Power & Light</title>\n05 </head>\n06 <body>\n07     <p>Welcome to City Power & Light.</p>\n08 </body>\n09 </html>"
+       },
+       {
+        "kind": "p",
+        "text": "What style will be used to render the code?"
+       }
+      ],
+      "source": "page 11",
+      "options": [
+       {
+        "id": "A",
+        "text": "The browser default style will be used."
+       },
+       {
+        "id": "B",
+        "text": "An inline style will be used."
+       },
+       {
+        "id": "C",
+        "text": "An internal style will be used."
+       },
+       {
+        "id": "D",
+        "text": "An external style will be used."
+       }
+      ],
+      "answer": [
+       "A"
+      ]
+     }
+    },
+    {
+     "taskId": 2,
+     "instruction": "The external stylesheet named mystyles.css contains the following three rules: h1 { color : blue; } h2 { color : purple; } p { color : grey; } The head section of a webpage contains the following markup: <link rel=\"stylesheet\" type=\"text/css\" href=\"mystyles.css\"> <style> h1 { color : maroon; } h2 { color : blue; } p { color : black; } </style> The following elements appear within the body of the webpage: <h1 style=\"color : black ;\">AdventureWorks Presents</h1> <h2>Rock climbing 101</h2> <p style=\"color : blue ;\">Coming soon!</p> <h1>Awards</h1> <p>Certificates will be awarded in June.</p> For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.",
+     "correctAnswer": "Statement Yes No \"Certificates will be awarded in June\" is displayed in grey. \"Coming soon!\" is displayed in blue. \"Awards\" is displayed in maroon. \"Rock climbing 101\" is displayed in purple. Answer Key: 1. Yes 2. Yes 3. Yes 4. No",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q11-Q20 - Q12 (page 12)",
+     "item": {
+      "type": "yesno",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "The external stylesheet named mystyles.css contains the following three rules:"
+       },
+       {
+        "kind": "code",
+        "text": " h1 { color : blue; }\nh2 { color : purple; }\np  { color : grey; }"
+       },
+       {
+        "kind": "p",
+        "text": "The head section of a webpage contains the following markup:"
+       },
+       {
+        "kind": "code",
+        "text": " <link rel=\"stylesheet\" type=\"text/css\" href=\"mystyles.css\">\n<style>\n    h1 { color : maroon; }\n    h2 { color : blue; }\n    p  { color : black; }\n</style>"
+       },
+       {
+        "kind": "p",
+        "text": "The following elements appear within the body of the webpage:"
+       },
+       {
+        "kind": "code",
+        "text": " <h1 style=\"color : black ;\">AdventureWorks Presents</h1>\n<h2>Rock climbing 101</h2>\n<p style=\"color : blue ;\">Coming soon!</p>\n<h1>Awards</h1>\n<p>Certificates will be awarded in June.</p>"
+       },
+       {
+        "kind": "p",
+        "text": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point."
+       }
+      ],
+      "source": "page 12",
+      "statements": [
+       "\"Certificates will be awarded in June\" is displayed in grey.",
+       "\"Coming soon!\" is displayed in blue.",
+       "\"Awards\" is displayed in maroon.",
+       "\"Rock climbing 101\" is displayed in purple."
+      ],
+      "answer": [
+       "Yes",
+       "Yes",
+       "Yes",
+       "No"
+      ]
+     }
+    },
+    {
+     "taskId": 3,
+     "instruction": "Analyze the following CSS for a webpage: <!DOCTYPE html> <html> <head> <style> p { background-color: blue; } .light { background-color: yellow; } .light p { background-color: green; } </style> </head> <body> <div class=\"light\" style=\"background-color:pink\"> <p>This is some sample text</p> </div> </body> </html> What is the resulting background color of the paragraph element?",
+     "correctAnswer": "A. Pink Explanation/Reference: References: https://www.w3schools.com/tags/tag_div.asp Note: The source image marks A. Pink as the correct answer. However, based strictly on the CSS shown, .light p { background-color: green; } specifically targets the paragraph, so Green (D) would normally be the resulting paragraph background.",
+     "explanation": "References: https://www.w3schools.com/tags/tag_div.asp Note: The source image marks A. Pink as the correct answer. However, based strictly on the CSS shown, .light p { background-color: green; } specifically targets the paragraph, so Green (D) would normally be the resulting paragraph background.",
+     "ref": "HTML/CSS Reviewer - Q11-Q20 - Q13 (page 13)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "Analyze the following CSS for a webpage:"
+       },
+       {
+        "kind": "code",
+        "text": " <!DOCTYPE html>\n<html>\n<head>\n    <style>\n        p {\n            background-color: blue;\n        }\n        .light {\n            background-color: yellow;\n        }"
+       },
+       {
+        "kind": "p",
+        "text": "        .light p {"
+       },
+       {
+        "kind": "code",
+        "text": "            background-color: green;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"light\" style=\"background-color:pink\">\n        <p>This is some sample text</p>\n    </div>\n</body>\n</html>"
+       },
+       {
+        "kind": "p",
+        "text": "What is the resulting background color of the paragraph element?"
+       }
+      ],
+      "source": "page 13",
+      "options": [
+       {
+        "id": "A",
+        "text": "Pink"
+       },
+       {
+        "id": "B",
+        "text": "Blue"
+       },
+       {
+        "id": "C",
+        "text": "Yellow"
+       },
+       {
+        "id": "D",
+        "text": "Green"
+       }
+      ],
+      "answer": [
+       "A"
+      ]
+     }
+    },
+    {
+     "taskId": 4,
+     "instruction": "You are building a website and want to have three main links called Home, Product Info, and Contact Us. You will create a hierarchy of page elements and revise the stylesheets. You want to apply a style to all elements in a document. Which type selector should you use?",
+     "correctAnswer": "D. *",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q11-Q20 - Q14 (page 14)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are building a website and want to have three main links called Home, Product Info, and Contact Us. You will create\na hierarchy of page elements and revise the stylesheets.\nYou want to apply a style to all elements in a document.\nWhich type selector should you use?"
+       }
+      ],
+      "source": "page 14",
+      "options": [
+       {
+        "id": "A",
+        "text": "+"
+       },
+       {
+        "id": "B",
+        "text": ">"
+       },
+       {
+        "id": "C",
+        "text": ":"
+       },
+       {
+        "id": "D",
+        "text": "*"
+       }
+      ],
+      "answer": [
+       "D"
+      ]
+     }
+    },
+    {
+     "taskId": 5,
+     "instruction": "You are designing a website for Margie's Travel. The website uses external stylesheets. You need to create a style that centers all h1 elements on the page. How should you complete the code? To answer, drag the appropriate code segment to the correct location in the code. Each code segment may be used once, more than once, or not at all.",
+     "correctAnswer": "Blank 1: h1 Blank 2: text-align Blank 3: : Blank 4: center Blank 5: ; Completed answer area: h1 { text-align: center; } Unused options: .h1, =",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q11-Q20 - Q15 (page 15)",
+     "item": {
+      "type": "dropblank",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are designing a website for Margie's Travel. The website uses external stylesheets.\nYou need to create a style that centers all h1 elements on the page.\nHow should you complete the code? To answer, drag the appropriate code segment to the correct location in the code.\nEach code segment may be used once, more than once, or not at all."
+       }
+      ],
+      "source": "page 15",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 4
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 5
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "text-align",
+         ":",
+         "center",
+         ";",
+         "h1",
+         ".h1",
+         "="
+        ],
+        "answer": "h1"
+       },
+       {
+        "id": 2,
+        "options": [
+         "text-align",
+         ":",
+         "center",
+         ";",
+         "h1",
+         ".h1",
+         "="
+        ],
+        "answer": "text-align"
+       },
+       {
+        "id": 3,
+        "options": [
+         "text-align",
+         ":",
+         "center",
+         ";",
+         "h1",
+         ".h1",
+         "="
+        ],
+        "answer": ":"
+       },
+       {
+        "id": 4,
+        "options": [
+         "text-align",
+         ":",
+         "center",
+         ";",
+         "h1",
+         ".h1",
+         "="
+        ],
+        "answer": "center"
+       },
+       {
+        "id": 5,
+        "options": [
+         "text-align",
+         ":",
+         "center",
+         ";",
+         "h1",
+         ".h1",
+         "="
+        ],
+        "answer": ";"
+       }
+      ],
+      "pool": [
+       "text-align",
+       ":",
+       "center",
+       ";",
+       "h1",
+       ".h1",
+       "="
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 6,
+     "instruction": "You are creating a website for Northwind Traders to appear on the browser tab. There will also be a paragraph that greets users to the site. You need to create the structure of the website. In which order should you arrange the markup segments to develop the solution? To answer, move all markup segments from the list of markup segments to the answer area and arrange them in the correct order.",
+     "correctAnswer": "Correct order: 1. <!DOCTYPE html> 2. <html> 3. <head> 4. <title>Northwind Traders</title> 5. </head> 6. <body> 7. <p>Welcome to the Northwind Traders website.</p> 8. </body> 9. </html> Completed answer area: <!DOCTYPE html> <html> <head> <title>Northwind Traders</title> </head> <body> <p>Welcome to the Northwind Traders website.</p> </body> </html>",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q11-Q20 - Q16 (page 16)",
+     "item": {
+      "type": "sequence",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating a website for Northwind Traders to appear on the browser tab. There will also be a paragraph that greets\nusers to the site.\nYou need to create the structure of the website.\nIn which order should you arrange the markup segments to develop the solution? To answer, move all markup segments\nfrom the list of markup segments to the answer area and arrange them in the correct order."
+       }
+      ],
+      "source": "page 16",
+      "blocks": [
+       "</head>",
+       "</body>",
+       "<p>Welcome to the Northwind Traders website.</p>",
+       "<title>Northwind Traders</title>",
+       "</html>",
+       "<html>\n<head>\n<!DOCTYPE html>\n<body>",
+       "<!DOCTYPE html>",
+       "<html>",
+       "<head>",
+       "<body>",
+       "<!DOCTYPE html>\n<html>\n<head>\n<title>Northwind Traders</title>\n</head>\n<body>\n<p>Welcome to the Northwind Traders website.</p>\n</body>\n</html>"
+      ],
+      "answer": [
+       "<!DOCTYPE html>",
+       "<html>",
+       "<head>",
+       "<title>Northwind Traders</title>",
+       "</head>",
+       "<body>",
+       "<p>Welcome to the Northwind Traders website.</p>",
+       "</body>",
+       "<!DOCTYPE html>\n<html>\n<head>\n<title>Northwind Traders</title>\n</head>\n<body>\n<p>Welcome to the Northwind Traders website.</p>\n</body>\n</html>"
+      ],
+      "preview": " <!DOCTYPE html>\n<html>\n<head>\n<title>Northwind Traders</title>\n</head>\n<body>\n<p>Welcome to the Northwind Traders website.</p>\n</body>\n</html>"
+     }
+    },
+    {
+     "taskId": 7,
+     "instruction": "You are designing a webpage for Contoso by using HTML. You need to create content for the head section. Which four markup segments should you use? To answer, move the appropriate markup segments from the list of markup segments to the answer area and arrange them in the correct order. NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.",
+     "correctAnswer": "Correct order: 1. <!DOCTYPE html> 2. <head> 3. <title>About Contoso</title> 4. </head> Completed answer area: <!DOCTYPE html> <head> <title>About Contoso</title> </head> Unused options: <meta charset=\"utf-8\">, <header>New Releases</header>, <h3>Contact Us</h3>, <meta enctype=\"utf-8>",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q11-Q20 - Q17 (page 17)",
+     "item": {
+      "type": "sequence",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are designing a webpage for Contoso by using HTML.\nYou need to create content for the head section.\nWhich four markup segments should you use? To answer, move the appropriate markup segments from the list of markup\nsegments to the answer area and arrange them in the correct order.\nNOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select."
+       }
+      ],
+      "source": "page 17",
+      "blocks": [
+       "<meta charset=\"utf-8\">\n<!DOCTYPE html>\n<title>About Contoso</title>\n<header>New Releases</header>\n</head>",
+       "<h3>Contact Us</h3>",
+       "<head>\n<meta enctype=\"utf-8>",
+       "<!DOCTYPE html>",
+       "<head>",
+       "<title>About Contoso</title>",
+       "<!DOCTYPE html>\n<head>\n<title>About Contoso</title>\n</head>\nenctype=\"utf-8>"
+      ],
+      "answer": [
+       "<!DOCTYPE html>",
+       "<head>",
+       "<title>About Contoso</title>",
+       "<!DOCTYPE html>\n<head>\n<title>About Contoso</title>\n</head>\nenctype=\"utf-8>"
+      ],
+      "preview": " <!DOCTYPE html>\n<head>\n<title>About Contoso</title>\n</head>"
+     }
+    },
+    {
+     "taskId": 8,
+     "instruction": "You are creating a home page for Blue Yonder Airlines. The page will use JavaScript. If a browser does not support JavaScript, the following message must be displayed: Your browser does not support JavaScript! For the Blue Yonder Airlines home page, match the metadata element to the content or attribute-value pair. To answer, drag the appropriate metadata element from the column on the left to its content or attribute-value pair on the right. Each metadata element may be used once, more than once, or not at all. NOTE: Each correct selection is worth one point.",
+     "correctAnswer": "Metadata Element Content / Attribute-Value Pair <base> href=\"style.css\" <script> src=\"/js/form.js\" <title> Blue Yonder Airlines <noscript> Your browser does not support JavaScript! Answer Key: <base> → href=\"style.css\" <script> → src=\"/js/form.js\" <title> → Blue Yonder Airlines <noscript> → Your browser does not support JavaScript! Unused option: <meta>",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q11-Q20 - Q18 (page 18)",
+     "item": {
+      "type": "match",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating a home page for Blue Yonder Airlines. The page will use JavaScript. If a browser does not support\nJavaScript, the following message must be displayed:\nYour browser does not support JavaScript!\nFor the Blue Yonder Airlines home page, match the metadata element to the content or attribute-value pair. To answer,\ndrag the appropriate metadata element from the column on the left to its content or attribute-value pair on the right.\nEach metadata element may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point."
+       }
+      ],
+      "source": "page 18",
+      "zones": [
+       {
+        "id": "z1",
+        "label": "href=\"style.css\""
+       },
+       {
+        "id": "z2",
+        "label": "src=\"/js/form.js\""
+       },
+       {
+        "id": "z3",
+        "label": "Blue Yonder Airlines"
+       },
+       {
+        "id": "z4",
+        "label": "Your browser does not support JavaScript!"
+       }
+      ],
+      "tokens": [
+       {
+        "id": "t1",
+        "text": "<base>",
+        "zone": "z1"
+       },
+       {
+        "id": "t2",
+        "text": "<script>",
+        "zone": "z2"
+       },
+       {
+        "id": "t3",
+        "text": "<title>",
+        "zone": "z3"
+       },
+       {
+        "id": "t4",
+        "text": "<noscript>",
+        "zone": "z4"
+       },
+       {
+        "id": "t5",
+        "text": "<meta>",
+        "zone": null
+       }
+      ]
+     }
+    },
+    {
+     "taskId": 9,
+     "instruction": "You are defining CSS classes to style text in your HTML document. You need to format section titles to look like the following example: Section Title Which CSS attributes should you use to define each setting? To answer, drag the appropriate attribute from the column on the left to its setting on the right. Each attribute may be used once, more than once, or not at all.",
+     "correctAnswer": "Setting CSS Attribute Arial font-family 100 font-weight italic font-style large font-size Answer Key: Arial → font-family 100 → font-weight italic → font-style large → font-size Unused option: font-variant",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q11-Q20 - Q19 (page 19)",
+     "item": {
+      "type": "match",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are defining CSS classes to style text in your HTML document.\nYou need to format section titles to look like the following example:\nSection Title\nWhich CSS attributes should you use to define each setting? To answer, drag the appropriate attribute from the column on\nthe left to its setting on the right. Each attribute may be used once, more than once, or not at all."
+       }
+      ],
+      "source": "page 19",
+      "zones": [
+       {
+        "id": "z1",
+        "label": "font-family"
+       },
+       {
+        "id": "z2",
+        "label": "font-weight"
+       },
+       {
+        "id": "z3",
+        "label": "font-style"
+       },
+       {
+        "id": "z4",
+        "label": "font-size"
+       }
+      ],
+      "tokens": [
+       {
+        "id": "t1",
+        "text": "Arial",
+        "zone": "z1"
+       },
+       {
+        "id": "t2",
+        "text": "100",
+        "zone": "z2"
+       },
+       {
+        "id": "t3",
+        "text": "italic",
+        "zone": "z3"
+       },
+       {
+        "id": "t4",
+        "text": "large",
+        "zone": "z4"
+       },
+       {
+        "id": "t5",
+        "text": "font-variant",
+        "zone": null
+       }
+      ]
+     }
+    },
+    {
+     "taskId": 10,
+     "instruction": "Which CSS property is used to draw a line over text, through text, or under text?",
+     "correctAnswer": "D. text-decoration",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q11-Q20 - Q20 (page 20)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "Which CSS property is used to draw a line over text, through text, or under text?"
+       }
+      ],
+      "source": "page 20",
+      "options": [
+       {
+        "id": "A",
+        "text": "font-family"
+       },
+       {
+        "id": "B",
+        "text": "font-style"
+       },
+       {
+        "id": "C",
+        "text": "text-overflow"
+       },
+       {
+        "id": "D",
+        "text": "text-decoration"
+       }
+      ],
+      "answer": [
+       "D"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "projectId": 3,
+   "projectName": "HTML/CSS Reviewer - Q21-Q25",
+   "durationMinutes": 10,
+   "tasks": [
+    {
+     "taskId": 1,
+     "instruction": "You are designing a webpage for your company. The page must be responsive so that it can be viewed on both mobile and desktop browsers. On mobile browsers, or those with a screen width of less than 768 pixels, you want to display a welcome background image named SmalLogo.png. On all other browsers, you want to display a welcome background image named NormalLogo.png. How should you complete the code? To answer, select the appropriate code segment in the answer area. NOTE: Each correct selection is worth one point.",
+     "correctAnswer": ".welcome { background-image: url ( NormalLogo.png ); } @media only screen and ( max-width : 768px ) { .welcome { background-image: url ( SmalLogo.png ); } } Answer Key: 1. NormalLogo.png 2. max-width 3. SmalLogo.png Source answer area: the supplied source marks SmalLogo.png, max-width, and NormalLogo.png as the selected answer segments.",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q21-Q25 - Q21 (page 21)",
+     "item": {
+      "type": "hotarea",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are designing a webpage for your company. The page must be responsive so that it can be viewed on both mobile and\ndesktop browsers.\nOn mobile browsers, or those with a screen width of less than 768 pixels, you want to display a welcome background\nimage named SmalLogo.png. On all other browsers, you want to display a welcome background image named\nNormalLogo.png.\nHow should you complete the code? To answer, select the appropriate code segment in the answer area.\nNOTE: Each correct selection is worth one point."
+       }
+      ],
+      "source": "page 21",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "NormalLogo.png",
+         "SmalLogo.png",
+         "min-width",
+         "max-width"
+        ],
+        "answer": "NormalLogo.png"
+       },
+       {
+        "id": 2,
+        "options": [
+         "NormalLogo.png",
+         "SmalLogo.png",
+         "min-width",
+         "max-width"
+        ],
+        "answer": "max-width"
+       },
+       {
+        "id": 3,
+        "options": [
+         "NormalLogo.png",
+         "SmalLogo.png",
+         "min-width",
+         "max-width"
+        ],
+        "answer": "SmalLogo.png"
+       }
+      ],
+      "pool": [
+       "NormalLogo.png",
+       "SmalLogo.png",
+       "min-width",
+       "max-width"
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 2,
+     "instruction": "This question requires that you evaluate the underlined text to determine if it is correct. You are reviewing a stylesheet created by a member of your team. The stylesheet includes a style that is defined as follows: .product { color: #000000; background-color: #00FF00; } You apply the productBox style to a <div>. The <div> will be displayed with white text on a green background. Review the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect, select the answer choice that makes the statement correct.",
+     "correctAnswer": "C. black text on a green background. Explanation/Reference: References: https://www.w3schools.com/colors/colors_shades.asp",
+     "explanation": "References: https://www.w3schools.com/colors/colors_shades.asp",
+     "ref": "HTML/CSS Reviewer - Q21-Q25 - Q22 (page 22)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "This question requires that you evaluate the underlined text to determine if it is correct.\nYou are reviewing a stylesheet created by a member of your team. The stylesheet includes a style that is defined as follows:"
+       },
+       {
+        "kind": "code",
+        "text": " .product {\n    color: #000000;\n    background-color: #00FF00;\n}"
+       },
+       {
+        "kind": "p",
+        "text": "You apply the productBox style to a <div>.\nThe <div> will be displayed with white text on a green background.\nReview the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect,\nselect the answer choice that makes the statement correct."
+       }
+      ],
+      "source": "page 22",
+      "options": [
+       {
+        "id": "A",
+        "text": "No change is needed."
+       },
+       {
+        "id": "B",
+        "text": "white text on a red background."
+       },
+       {
+        "id": "C",
+        "text": "black text on a green background."
+       },
+       {
+        "id": "D",
+        "text": "black text on a blue background."
+       }
+      ],
+      "answer": [
+       "C"
+      ]
+     }
+    },
+    {
+     "taskId": 3,
+     "instruction": "You are creating an About Us webpage for Northwind Traders. You want to complete the CSS rule set to display the paragraph as shown in the example. How should you complete the code? To answer, select the appropriate CSS properties in the answer area. NOTE: Each correct selection is worth one point.",
+     "correctAnswer": "<style> p { color : #000ff; line-height : 50px; font-size : 1.5em; font-style : italic; } </style> Answer Key: 1. color 2. line-height 3. font-size 4. font-style",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q21-Q25 - Q23 (page 23)",
+     "item": {
+      "type": "hotarea",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating an About Us webpage for Northwind Traders.\nYou want to complete the CSS rule set to display the paragraph as shown in the example.\nHow should you complete the code? To answer, select the appropriate CSS properties in the answer area.\nNOTE: Each correct selection is worth one point."
+       }
+      ],
+      "source": "page 23",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 4
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "color",
+         "font-variant",
+         "border-color",
+         "background-color",
+         "position",
+         "line-height",
+         "text-indent",
+         "letter-spacing",
+         "font-size",
+         "font-weight",
+         "font-style",
+         "font-family"
+        ],
+        "answer": "color"
+       },
+       {
+        "id": 2,
+        "options": [
+         "color",
+         "font-variant",
+         "border-color",
+         "background-color",
+         "position",
+         "line-height",
+         "text-indent",
+         "letter-spacing",
+         "font-size",
+         "font-weight",
+         "font-style",
+         "font-family"
+        ],
+        "answer": "line-height"
+       },
+       {
+        "id": 3,
+        "options": [
+         "color",
+         "font-variant",
+         "border-color",
+         "background-color",
+         "position",
+         "line-height",
+         "text-indent",
+         "letter-spacing",
+         "font-size",
+         "font-weight",
+         "font-style",
+         "font-family"
+        ],
+        "answer": "font-size"
+       },
+       {
+        "id": 4,
+        "options": [
+         "color",
+         "font-variant",
+         "border-color",
+         "background-color",
+         "position",
+         "line-height",
+         "text-indent",
+         "letter-spacing",
+         "font-size",
+         "font-weight",
+         "font-style",
+         "font-family"
+        ],
+        "answer": "font-style"
+       }
+      ],
+      "pool": [
+       "color",
+       "font-variant",
+       "border-color",
+       "background-color",
+       "position",
+       "line-height",
+       "text-indent",
+       "letter-spacing",
+       "font-size",
+       "font-weight",
+       "font-style",
+       "font-family"
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 4,
+     "instruction": "This question requires that you evaluate the underlined text to determine if it is correct. Static positioning places an element at specific coordinates relative to the page or the element's container. Review the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect, select the answer choice that makes the statement correct.",
+     "correctAnswer": "C. Relative positioning Explanation/Reference: References: https://www.w3schools.com/css/css_positioning.asp",
+     "explanation": "References: https://www.w3schools.com/css/css_positioning.asp",
+     "ref": "HTML/CSS Reviewer - Q21-Q25 - Q24 (page 24)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "This question requires that you evaluate the underlined text to determine if it is correct.\nStatic positioning places an element at specific coordinates relative to the page or the element's container.\nReview the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect,\nselect the answer choice that makes the statement correct."
+       }
+      ],
+      "source": "page 24",
+      "options": [
+       {
+        "id": "A",
+        "text": "No change is needed."
+       },
+       {
+        "id": "B",
+        "text": "Absolute positioning"
+       },
+       {
+        "id": "C",
+        "text": "Relative positioning"
+       },
+       {
+        "id": "D",
+        "text": "Fixed positioning"
+       }
+      ],
+      "answer": [
+       "C"
+      ]
+     }
+    },
+    {
+     "taskId": 5,
+     "instruction": "You need to create a stylesheet that will cause all h1 header text to appear in blue, using the Arial font with a size of 20 pixels. The text should always be bold and center-aligned. How should you complete the code? To answer, drag the appropriate CSS property to the correct locations. Each property may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.",
+     "correctAnswer": "h1 { color: blue; font-family: arial; font-size: 20px; font-weight: bold; text-align: center; } Answer Key: 1. color: 2. font-family: 3. font-size: 4. font-weight: 5. text-align: Unused options: font-style: text-decoration-color: vertical-align:",
+     "explanation": "",
+     "ref": "HTML/CSS Reviewer - Q21-Q25 - Q25 (page 25)",
+     "item": {
+      "type": "dropblank",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You need to create a stylesheet that will cause all h1 header text to appear in blue, using the Arial font with a size of 20\npixels.\nThe text should always be bold and center-aligned.\nHow should you complete the code? To answer, drag the appropriate CSS property to the correct locations. Each property\nmay be used once, more than once, or not at all.\nYou may need to drag the split bar between panes or scroll to view content."
+       }
+      ],
+      "source": "page 25",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 4
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 5
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "color:",
+         "font-family:",
+         "font-size:",
+         "font-style:",
+         "font-weight:",
+         "text-align:",
+         "text-decoration-color:",
+         "vertical-align:"
+        ],
+        "answer": "color:"
+       },
+       {
+        "id": 2,
+        "options": [
+         "color:",
+         "font-family:",
+         "font-size:",
+         "font-style:",
+         "font-weight:",
+         "text-align:",
+         "text-decoration-color:",
+         "vertical-align:"
+        ],
+        "answer": "font-family:"
+       },
+       {
+        "id": 3,
+        "options": [
+         "color:",
+         "font-family:",
+         "font-size:",
+         "font-style:",
+         "font-weight:",
+         "text-align:",
+         "text-decoration-color:",
+         "vertical-align:"
+        ],
+        "answer": "font-size:"
+       },
+       {
+        "id": 4,
+        "options": [
+         "color:",
+         "font-family:",
+         "font-size:",
+         "font-style:",
+         "font-weight:",
+         "text-align:",
+         "text-decoration-color:",
+         "vertical-align:"
+        ],
+        "answer": "font-weight:"
+       },
+       {
+        "id": 5,
+        "options": [
+         "color:",
+         "font-family:",
+         "font-size:",
+         "font-style:",
+         "font-weight:",
+         "text-align:",
+         "text-decoration-color:",
+         "vertical-align:"
+        ],
+        "answer": "text-align:"
+       }
+      ],
+      "pool": [
+       "color:",
+       "font-family:",
+       "font-size:",
+       "font-style:",
+       "font-weight:",
+       "text-align:",
+       "text-decoration-color:",
+       "vertical-align:"
+      ],
+      "reusable": true
+     }
+    }
+   ]
+  },
+  {
+   "projectId": 4,
+   "projectName": "Exam B - HTML/CSS Reviewer",
+   "durationMinutes": 10,
+   "tasks": [
+    {
+     "taskId": 1,
+     "instruction": "You are analyzing a form that sends multiline comments to another page on the Internet. The following is the form's markup: <form action=\"http://www.contoso.com/receivecomments.asp\" method=\"post\"> Comments : <br> <textarea id=\"cometns\"></textarea> <input type=\"submit\" value=\"Submit\"> </form> No data is sent when the form is submitted. You need to solve this problem so that the data in the text box is submitted. What should you do?",
+     "correctAnswer": "C. Change the value of the method attribute to get. Explanation/Reference: References: https://www.w3schools.com/tags/att_form_action.asp",
+     "explanation": "References: https://www.w3schools.com/tags/att_form_action.asp",
+     "ref": "Exam B - HTML/CSS Reviewer - Q1 (page 26)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are analyzing a form that sends multiline comments to another page on the Internet. The following is the form's\nmarkup:"
+       },
+       {
+        "kind": "code",
+        "text": " <form action=\"http://www.contoso.com/receivecomments.asp\""
+       },
+       {
+        "kind": "p",
+        "text": "      method=\"post\">\n    Comments : <br>"
+       },
+       {
+        "kind": "code",
+        "text": "    <textarea id=\"cometns\"></textarea>\n    <input type=\"submit\" value=\"Submit\">\n</form>"
+       },
+       {
+        "kind": "p",
+        "text": "No data is sent when the form is submitted.\nYou need to solve this problem so that the data in the text box is submitted.\nWhat should you do?"
+       }
+      ],
+      "source": "page 26",
+      "options": [
+       {
+        "id": "A",
+        "text": "Replace the textarea element with an input element."
+       },
+       {
+        "id": "B",
+        "text": "Set the name attribute of the textarea element."
+       },
+       {
+        "id": "C",
+        "text": "Change the value of the method attribute to get."
+       },
+       {
+        "id": "D",
+        "text": "Set the id attribute of the form element."
+       }
+      ],
+      "answer": [
+       "C"
+      ]
+     }
+    },
+    {
+     "taskId": 2,
+     "instruction": "You are designing a website for City Power & Light. You write the following markup. Line numbers are included for reference only. 01 <!DOCTYPE html> 02 <html> 03 <head> 04 <title>City Power & Light</title> 05 </head> 06 <body> 07 <p>Welcome to City Power & Light.</p> 08 </body> 09 </html> What style will be used to render the code?",
+     "correctAnswer": "A. The browser default style will be used. Explanation/Reference: References: https://www.w3schools.com/cssref/css_default_values.asp",
+     "explanation": "References: https://www.w3schools.com/cssref/css_default_values.asp",
+     "ref": "Exam B - HTML/CSS Reviewer - Q2 (page 27)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are designing a website for City Power & Light.\nYou write the following markup. Line numbers are included for reference only."
+       },
+       {
+        "kind": "code",
+        "text": " 01 <!DOCTYPE html>\n02 <html>\n03     <head>\n04         <title>City Power & Light</title>\n05     </head>\n06     <body>\n07         <p>Welcome to City Power & Light.</p>\n08     </body>\n09 </html>"
+       },
+       {
+        "kind": "p",
+        "text": "What style will be used to render the code?"
+       }
+      ],
+      "source": "page 27",
+      "options": [
+       {
+        "id": "A",
+        "text": "The browser default style will be used."
+       },
+       {
+        "id": "B",
+        "text": "An inline style will be used."
+       },
+       {
+        "id": "C",
+        "text": "An international style will be used."
+       },
+       {
+        "id": "D",
+        "text": "An external style will be used."
+       }
+      ],
+      "answer": [
+       "A"
+      ]
+     }
+    },
+    {
+     "taskId": 3,
+     "instruction": "Analyze the following CSS for a webpage: <!Doctype html> <html> <head> <style> p { background-color : blue; } .light { background-color : yellow; } .light p { background-color : green; } </style> </head> <body> <div class=\"light\" style=\"background-color:pink\"> <p>This is some sample text</p> </div> </body> </html> What is the resulting background color of the paragraph element?",
+     "correctAnswer": "A. Pink Explanation/Reference: References: https://www.w3schools.com/tags/tag_div.asp",
+     "explanation": "References: https://www.w3schools.com/tags/tag_div.asp",
+     "ref": "Exam B - HTML/CSS Reviewer - Q3 (page 28)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "Analyze the following CSS for a webpage:"
+       },
+       {
+        "kind": "code",
+        "text": " <!Doctype html>\n<html>\n    <head>\n        <style>\n            p {\n                background-color : blue;\n            }\n            .light {\n                background-color : yellow;\n            }"
+       },
+       {
+        "kind": "p",
+        "text": "            .light p {"
+       },
+       {
+        "kind": "code",
+        "text": "                background-color : green;\n            }\n        </style>\n    </head>\n    <body>\n        <div class=\"light\" style=\"background-color:pink\">\n            <p>This is some sample text</p>\n        </div>\n    </body>\n</html>"
+       },
+       {
+        "kind": "p",
+        "text": "What is the resulting background color of the paragraph element?"
+       }
+      ],
+      "source": "page 28",
+      "options": [
+       {
+        "id": "A",
+        "text": "Pink"
+       },
+       {
+        "id": "B",
+        "text": "Blue"
+       },
+       {
+        "id": "C",
+        "text": "Yellow"
+       },
+       {
+        "id": "D",
+        "text": "Green"
+       }
+      ],
+      "answer": [
+       "A"
+      ]
+     }
+    },
+    {
+     "taskId": 4,
+     "instruction": "You are building a website and want to have three main links called Home, Product Info, and Contact Us. You will create a hierarchy of page elements and revise the stylesheets. You want to apply a style to all elements in a document. Which type selector should you use?",
+     "correctAnswer": "D. * Explanation/Reference: References: https://www.w3schools.com/cssref/sel_all.asp",
+     "explanation": "References: https://www.w3schools.com/cssref/sel_all.asp",
+     "ref": "Exam B - HTML/CSS Reviewer - Q4 (page 29)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are building a website and want to have three main links called Home, Product Info, and Contact Us. You will create\na hierarchy of page elements and revise the stylesheets.\nYou want to apply a style to all elements in a document.\nWhich type selector should you use?"
+       }
+      ],
+      "source": "page 29",
+      "options": [
+       {
+        "id": "A",
+        "text": "+"
+       },
+       {
+        "id": "B",
+        "text": ">"
+       },
+       {
+        "id": "C",
+        "text": ":"
+       },
+       {
+        "id": "D",
+        "text": "*"
+       }
+      ],
+      "answer": [
+       "D"
+      ]
+     }
+    },
+    {
+     "taskId": 5,
+     "instruction": "Which CSS property is used to draw a line over text, through text, or under text?",
+     "correctAnswer": "D. text-decoration Explanation/Reference: References: https://www.w3schools.com/cssref/pr_text_text-decoration.asp",
+     "explanation": "References: https://www.w3schools.com/cssref/pr_text_text-decoration.asp",
+     "ref": "Exam B - HTML/CSS Reviewer - Q5 (page 30)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "Which CSS property is used to draw a line over text, through text, or under text?"
+       }
+      ],
+      "source": "page 30",
+      "options": [
+       {
+        "id": "A",
+        "text": "font-family"
+       },
+       {
+        "id": "B",
+        "text": "font-style"
+       },
+       {
+        "id": "C",
+        "text": "text-overflow"
+       },
+       {
+        "id": "D",
+        "text": "text-decoration"
+       }
+      ],
+      "answer": [
+       "D"
+      ]
+     }
+    },
+    {
+     "taskId": 6,
+     "instruction": "This question requires that you evaluate the underlined text to determine if it is correct. You are reviewing a stylesheet created by a member of your team. The stylesheet includes a style that is defined as follows: .product { color: #000000; background-color: #00FF00; } You apply the productBox style to a <div>. The <div> will be displayed with white text on a green background. Review the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect, select the answer choice that makes the statement correct.",
+     "correctAnswer": "C. black text on a green background. Explanation/Reference: References: https://www.w3schools.com/colors/colors_shades.asp",
+     "explanation": "References: https://www.w3schools.com/colors/colors_shades.asp",
+     "ref": "Exam B - HTML/CSS Reviewer - Q6 (page 31)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "This question requires that you evaluate the underlined text to determine if it is correct.\nYou are reviewing a stylesheet created by a member of your team. The stylesheet includes a style that is defined as follows:"
+       },
+       {
+        "kind": "code",
+        "text": " .product {\n    color: #000000;\n    background-color: #00FF00;\n}"
+       },
+       {
+        "kind": "p",
+        "text": "You apply the productBox style to a <div>.\nThe <div> will be displayed with white text on a green background.\nReview the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect,\nselect the answer choice that makes the statement correct."
+       }
+      ],
+      "source": "page 31",
+      "options": [
+       {
+        "id": "A",
+        "text": "No change is needed."
+       },
+       {
+        "id": "B",
+        "text": "white text on a red background."
+       },
+       {
+        "id": "C",
+        "text": "black text on a green background."
+       },
+       {
+        "id": "D",
+        "text": "black text on a blue background."
+       }
+      ],
+      "answer": [
+       "C"
+      ]
+     }
+    },
+    {
+     "taskId": 7,
+     "instruction": "This question requires that you evaluate the underlined text to determine if it is correct. Static positioning places an element at specific coordinates relative to the page or the element's container. Review the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect, select the answer choice that makes the statement correct.",
+     "correctAnswer": "C. Relative positioning Explanation/Reference: References: https://www.w3schools.com/css/css_positioning.asp",
+     "explanation": "References: https://www.w3schools.com/css/css_positioning.asp",
+     "ref": "Exam B - HTML/CSS Reviewer - Q7 (page 32)",
+     "item": {
+      "type": "choice",
+      "declaredType": "",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "This question requires that you evaluate the underlined text to determine if it is correct.\nStatic positioning places an element at specific coordinates relative to the page or the element's container.\nReview the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect,\nselect the answer choice that makes the statement correct."
+       }
+      ],
+      "source": "page 32",
+      "options": [
+       {
+        "id": "A",
+        "text": "No change is needed."
+       },
+       {
+        "id": "B",
+        "text": "Absolute positioning"
+       },
+       {
+        "id": "C",
+        "text": "Relative positioning"
+       },
+       {
+        "id": "D",
+        "text": "Fixed positioning"
+       }
+      ],
+      "answer": [
+       "C"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "projectId": 5,
+   "projectName": "Exam F - HTML/CSS Reviewer",
+   "durationMinutes": 36,
+   "tasks": [
+    {
+     "taskId": 1,
+     "instruction": "For each of the following statements, select Yes if the statement is true. Otherwise, elect No. NOTE: Each correct selection is worth one point.",
+     "correctAnswer": "References: https://www.navegabem.com/absolute-or-relative-links.html https://mor10.com/html-basics-hyperlink-syntax-absolute-relative-and-root-relative/ https://kb.iu.edu/d/abwp Source limitation: the supplied Exam F PDF contains image-based exhibits/answer areas for this item; those image contents were not present in the extracted text layer.",
+     "explanation": "References:",
+     "ref": "Exam F - HTML/CSS Reviewer - Q1 (page 33)",
+     "item": {
+      "type": "text",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "For each of the following statements, select Yes if the statement is true. Otherwise, elect No.\nNOTE: Each correct selection is worth one point."
+       }
+      ],
+      "source": "page 33",
+      "unavailable": true
+     }
+    },
+    {
+     "taskId": 2,
+     "instruction": "You are creating a page on your personal website to display your family portrait. You need to make sure that browsers display the text \"Family Portrait\" before the photo is downloaded. How should you complete the markup? Drag the appropriate markup segment from the column on the left to its correct position on the right. Each markup segment may be used once, more than once, or not at all.",
+     "correctAnswer": "Blank 1: img Blank 2: src Blank 3: alt Completed answer area: <img src=\"portrait.png\" alt=\"Family Portrait\"> Unused distractors: picture, href, title.",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q2 (page 34)",
+     "item": {
+      "type": "dropblank",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating a page on your personal website to display your family portrait. You need to make sure that browsers display the text \"Family\nPortrait\" before the photo is downloaded.\nHow should you complete the markup? Drag the appropriate markup segment from the column on the left to its correct position on the right. Each\nmarkup segment may be used once, more than once, or not at all."
+       }
+      ],
+      "source": "page 34",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "img",
+         "picture",
+         "src",
+         "href",
+         "alt",
+         "title"
+        ],
+        "answer": "img"
+       },
+       {
+        "id": 2,
+        "options": [
+         "img",
+         "picture",
+         "src",
+         "href",
+         "alt",
+         "title"
+        ],
+        "answer": "src"
+       },
+       {
+        "id": 3,
+        "options": [
+         "img",
+         "picture",
+         "src",
+         "href",
+         "alt",
+         "title"
+        ],
+        "answer": "alt"
+       }
+      ],
+      "pool": [
+       "img",
+       "picture",
+       "src",
+       "href",
+       "alt",
+       "title"
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 3,
+     "instruction": "You want to complete the pseudo class for link elements so that the links appear red when the page loads, green when the link is clicked, orange when the cursor moves over the link, and blue if the link was clicked previously. How should you complete the code? Drag the appropriate CSS selector to the correct locations. Each selector may be used once, more than once, or not at all.",
+     "correctAnswer": "Blank 1: a:link Blank 2: a:visited Blank 3: a:hover Blank 4: a:active Completed answer area: a:link {color: red} a:visited {color: blue} a:hover {color: orange} a:active {color: green}",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q3 (page 35)",
+     "item": {
+      "type": "dropblank",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You want to complete the pseudo class for link elements so that the links appear red when the page loads, green when the link is clicked, orange\nwhen the cursor moves over the link, and blue if the link was clicked previously.\nHow should you complete the code? Drag the appropriate CSS selector to the correct locations. Each selector may be used once, more than\nonce, or not at all."
+       }
+      ],
+      "source": "page 35",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 4
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "a:active",
+         "a:visited",
+         "a:link",
+         "a:hover"
+        ],
+        "answer": "a:link"
+       },
+       {
+        "id": 2,
+        "options": [
+         "a:active",
+         "a:visited",
+         "a:link",
+         "a:hover"
+        ],
+        "answer": "a:visited"
+       },
+       {
+        "id": 3,
+        "options": [
+         "a:active",
+         "a:visited",
+         "a:link",
+         "a:hover"
+        ],
+        "answer": "a:hover"
+       },
+       {
+        "id": 4,
+        "options": [
+         "a:active",
+         "a:visited",
+         "a:link",
+         "a:hover"
+        ],
+        "answer": "a:active"
+       }
+      ],
+      "pool": [
+       "a:active",
+       "a:visited",
+       "a:link",
+       "a:hover"
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 4,
+     "instruction": "You are designing a website for City Power & Light. You write the following markup. Line numbers are included for reference only. 01 <!DOCTYPE html> 02 <html> 03 <head> 04 <title>City Power & Light</title> 05 </head> 06 <body> 07 <p>Welcome to City Power & Light.</p> 08 </body> 09 </html> What style will be used to render the code?",
+     "correctAnswer": "A. The browser default style will be used. Explanation/Reference: References: https://www.w3schools.com/cssref/css_default_values.asp",
+     "explanation": "References: https://www.w3schools.com/cssref/css_default_values.asp",
+     "ref": "Exam F - HTML/CSS Reviewer - Q4 (page 36)",
+     "item": {
+      "type": "choice",
+      "declaredType": "Multiple Choice",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are designing a website for City Power & Light.\nYou write the following markup. Line numbers are included for reference only."
+       },
+       {
+        "kind": "code",
+        "text": "01 <!DOCTYPE html>\n02 <html>\n03 <head>\n04 <title>City Power & Light</title>\n05 </head>\n06 <body>\n07 <p>Welcome to City Power & Light.</p>\n08 </body>\n09 </html>"
+       },
+       {
+        "kind": "p",
+        "text": "What style will be used to render the code?"
+       }
+      ],
+      "source": "page 36",
+      "options": [
+       {
+        "id": "A",
+        "text": "The browser default style will be used."
+       },
+       {
+        "id": "B",
+        "text": "An inline style will be used."
+       },
+       {
+        "id": "C",
+        "text": "An international style will be used."
+       },
+       {
+        "id": "D",
+        "text": "An external style will be used."
+       }
+      ],
+      "answer": [
+       "A"
+      ]
+     }
+    },
+    {
+     "taskId": 5,
+     "instruction": "The external stylesheet named mystyles.css contains the following three rules: h1 { color : blue; } h2 { color : purple; } p { color : grey; } The head section of a webpage contains the following markup: <link rel=\"stylesheet\" type=\"text/css\" href=\"mystyles.css\"> <style> h1 { color : maroon; } h2 { color : blue; } p { color : black; } </style> The following elements appear within the body of the webpage: <h1 style=\"color : black ;\">AdventureWorks Presents</h1> <h2>Rock climbing 101</h2> <p style=\"color : blue ;\">Coming soon!</p> <h1>Awards</h1> <p>Certificates will be awarded in June.</p> For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.",
+     "correctAnswer": "Answer Key: 1. Yes 2. Yes 3. Yes 4. No",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q5 (page 37)",
+     "item": {
+      "type": "yesno",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "The external stylesheet named mystyles.css contains the following three rules:"
+       },
+       {
+        "kind": "code",
+        "text": " h1 { color : blue; }\nh2 { color : purple; }\np { color : grey; }"
+       },
+       {
+        "kind": "p",
+        "text": "The head section of a webpage contains the following markup:"
+       },
+       {
+        "kind": "code",
+        "text": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyles.css\">\n <style>\n h1 { color : maroon; }\n h2 { color : blue; }\n p { color : black; }\n</style>"
+       },
+       {
+        "kind": "p",
+        "text": "The following elements appear within the body of the webpage:"
+       },
+       {
+        "kind": "code",
+        "text": "<h1 style=\"color : black ;\">AdventureWorks Presents</h1>\n<h2>Rock climbing 101</h2>\n<p style=\"color : blue ;\">Coming soon!</p>\n<h1>Awards</h1>\n <p>Certificates will be awarded in June.</p>"
+       },
+       {
+        "kind": "p",
+        "text": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point."
+       }
+      ],
+      "source": "page 37",
+      "statements": [
+       "\"Certificates will be awarded in June\" is displayed in grey.",
+       "\"Coming soon!\" is displayed in blue.",
+       "\"Awards\" is displayed in maroon.",
+       "\"Rock climbing 101\" is displayed in purple."
+      ],
+      "answer": [
+       "Yes",
+       "Yes",
+       "Yes",
+       "No"
+      ]
+     }
+    },
+    {
+     "taskId": 6,
+     "instruction": "Analyze the following CSS for a webpage: <!Doctype html> <html> <head> <style> p { background-color : blue; } .light { background-color : yellow; } .light p { background-color : green; } </style> </head> <body> <div class=\"light\" style=\"background-color:pink\"> <p>This is some sample text</p> </div> </body> </html> What is the resulting background color of the paragraph element?",
+     "correctAnswer": "A. Pink Explanation/Reference: References: https://www.w3schools.com/tags/tag_div.asp",
+     "explanation": "References: https://www.w3schools.com/tags/tag_div.asp",
+     "ref": "Exam F - HTML/CSS Reviewer - Q6 (page 38)",
+     "item": {
+      "type": "choice",
+      "declaredType": "Multiple Choice",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "Analyze the following CSS for a webpage:"
+       },
+       {
+        "kind": "code",
+        "text": " <!Doctype html>\n<html>\n <head>\n  <style>\n   p { background-color : blue; }\n   .light { background-color : yellow; }"
+       },
+       {
+        "kind": "p",
+        "text": "   .light p { background-color : green; }"
+       },
+       {
+        "kind": "code",
+        "text": "  </style>\n </head>\n <body>\n  <div class=\"light\" style=\"background-color:pink\">\n   <p>This is some sample text</p>\n  </div>\n </body>\n</html>"
+       },
+       {
+        "kind": "p",
+        "text": "What is the resulting background color of the paragraph element?"
+       }
+      ],
+      "source": "page 38",
+      "options": [
+       {
+        "id": "A",
+        "text": "Pink"
+       },
+       {
+        "id": "B",
+        "text": "Blue"
+       },
+       {
+        "id": "C",
+        "text": "Yellow"
+       },
+       {
+        "id": "D",
+        "text": "Green"
+       }
+      ],
+      "answer": [
+       "A"
+      ]
+     }
+    },
+    {
+     "taskId": 7,
+     "instruction": "You are building a website and want to have three main links called Home, Product Info, and Contact Us. You will create a hierarchy of page elements and revise the stylesheets. You want to apply a style to all elements in a document. Which type selector should you use?",
+     "correctAnswer": "D. * References: https://www.w3schools.com/cssref/sel_all.asp",
+     "explanation": "References: https://www.w3schools.com/cssref/sel_all.asp",
+     "ref": "Exam F - HTML/CSS Reviewer - Q7 (page 39)",
+     "item": {
+      "type": "choice",
+      "declaredType": "Multiple Choice",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are building a website and want to have three main links called Home, Product Info, and Contact Us. You will create a hierarchy of page\nelements and revise the stylesheets.\nYou want to apply a style to all elements in a document.\nWhich type selector should you use?"
+       }
+      ],
+      "source": "page 39",
+      "options": [
+       {
+        "id": "A",
+        "text": "+"
+       },
+       {
+        "id": "B",
+        "text": ">"
+       },
+       {
+        "id": "C",
+        "text": ":"
+       },
+       {
+        "id": "D",
+        "text": "*"
+       }
+      ],
+      "answer": [
+       "D"
+      ]
+     }
+    },
+    {
+     "taskId": 8,
+     "instruction": "You are designing a website for Margie's Travel. The website uses external stylesheets. You need to create a style that centers all h1 elements on the page. How should you complete the code? To answer, drag the appropriate code segment to the correct location in the code. Each code segment may be used once, more than once, or not at all.",
+     "correctAnswer": "Blank 1: h1 Blank 2: text-align Blank 3: : Blank 4: center Blank 5: ; Completed answer area: h1 { text-align: center; } Unused options: .h1, =",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q8 (page 40)",
+     "item": {
+      "type": "dropblank",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are designing a website for Margie's Travel. The website uses external stylesheets.\nYou need to create a style that centers all h1 elements on the page.\nHow should you complete the code? To answer, drag the appropriate code segment to the correct location in the code. Each code segment may\nbe used once, more than once, or not at all."
+       }
+      ],
+      "source": "page 40",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 4
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 5
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "text-align",
+         ":",
+         "center",
+         ";",
+         "h1",
+         ".h1",
+         "="
+        ],
+        "answer": "h1"
+       },
+       {
+        "id": 2,
+        "options": [
+         "text-align",
+         ":",
+         "center",
+         ";",
+         "h1",
+         ".h1",
+         "="
+        ],
+        "answer": "text-align"
+       },
+       {
+        "id": 3,
+        "options": [
+         "text-align",
+         ":",
+         "center",
+         ";",
+         "h1",
+         ".h1",
+         "="
+        ],
+        "answer": ":"
+       },
+       {
+        "id": 4,
+        "options": [
+         "text-align",
+         ":",
+         "center",
+         ";",
+         "h1",
+         ".h1",
+         "="
+        ],
+        "answer": "center"
+       },
+       {
+        "id": 5,
+        "options": [
+         "text-align",
+         ":",
+         "center",
+         ";",
+         "h1",
+         ".h1",
+         "="
+        ],
+        "answer": ";"
+       }
+      ],
+      "pool": [
+       "text-align",
+       ":",
+       "center",
+       ";",
+       "h1",
+       ".h1",
+       "="
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 9,
+     "instruction": "You are defining CSS classes to style text in your HTML document. You need to format section titles to look like the following example: Section Title Which CSS attributes should you use to define each setting? To answer, drag the appropriate attribute from the column on the left to its setting on the right. Each attribute may be used once, more than once, or not at all.",
+     "correctAnswer": "Setting | CSS Attribute Arial → font-family 100 → font-weight italic → font-style large → font-size Unused option: font-variant",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q9 (page 41)",
+     "item": {
+      "type": "match",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are defining CSS classes to style text in your HTML document.\nYou need to format section titles to look like the following example:\nSection Title\nWhich CSS attributes should you use to define each setting? To answer, drag the appropriate attribute from the column on the left to its setting on\nthe right. Each attribute may be used once, more than once, or not at all."
+       }
+      ],
+      "source": "page 41",
+      "zones": [
+       {
+        "id": "z1",
+        "label": "font-family"
+       },
+       {
+        "id": "z2",
+        "label": "font-weight"
+       },
+       {
+        "id": "z3",
+        "label": "font-style"
+       },
+       {
+        "id": "z4",
+        "label": "font-size"
+       }
+      ],
+      "tokens": [
+       {
+        "id": "t1",
+        "text": "Arial",
+        "zone": "z1"
+       },
+       {
+        "id": "t2",
+        "text": "100",
+        "zone": "z2"
+       },
+       {
+        "id": "t3",
+        "text": "italic",
+        "zone": "z3"
+       },
+       {
+        "id": "t4",
+        "text": "large",
+        "zone": "z4"
+       },
+       {
+        "id": "t5",
+        "text": "font-variant",
+        "zone": null
+       }
+      ]
+     }
+    },
+    {
+     "taskId": 10,
+     "instruction": "You define the following styles in a style block: You write the following HTML: Use the drop-down menus to select the answer choice that answers each question based on the information presented in the CSS style and markup. NOTE: Each correct selection is worth one point.",
+     "correctAnswer": "References: https://www.w3schools.com/html/html_css.asp Source limitation: the supplied Exam F PDF contains image-based exhibits/answer areas for this item; those image contents were not present in the extracted text layer.",
+     "explanation": "References: https://www.w3schools.com/html/html_css.asp",
+     "ref": "Exam F - HTML/CSS Reviewer - Q10 (page 42)",
+     "item": {
+      "type": "text",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You define the following styles in a style block:\nYou write the following HTML:\nUse the drop-down menus to select the answer choice that answers each question based on the information presented in the CSS style and\nmarkup.\nNOTE: Each correct selection is worth one point."
+       }
+      ],
+      "source": "page 42",
+      "unavailable": true
+     }
+    },
+    {
+     "taskId": 11,
+     "instruction": "You are creating a website for Northwind Traders to appear on the browser tab. There will also be a paragraph that greets users to the site. You need to create the structure of the website. In which order should you arrange the markup segments to develop the solution? To answer, move all markup segments from the list of markup segments to the answer area and arrange them in the correct order.",
+     "correctAnswer": "Correct order: 1. <!DOCTYPE html> 2. <html> 3. <head> 4. <title>Northwind Traders</title> 5. </head> 6. <body> 7. <p>Welcome to the Northwind Traders website.</p> 8. </body> 9. </html> Completed answer area: <!DOCTYPE html> <html> <head> <title>Northwind Traders</title> </head> <body> <p>Welcome to the Northwind Traders website.</p> </body> </html>",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q11 (page 43)",
+     "item": {
+      "type": "sequence",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating a website for Northwind Traders to appear on the browser tab. There will also be a paragraph that greets users to the site.\nYou need to create the structure of the website.\nIn which order should you arrange the markup segments to develop the solution? To answer, move all markup segments from the list of markup\nsegments to the answer area and arrange them in the correct order."
+       }
+      ],
+      "source": "page 43",
+      "blocks": [
+       "</head>",
+       "</body>",
+       "<p>Welcome to the Northwind Traders website.</p>",
+       "<title>Northwind Traders</title>",
+       "</html>",
+       "<html>\n<head>\n<!DOCTYPE html>\n<body>",
+       "<!DOCTYPE html>",
+       "<html>",
+       "<head>",
+       "<body>",
+       "<!DOCTYPE html>\n<html>\n<head>\n<title>Northwind Traders</title>\n</head>\n<body>\n<p>Welcome to the Northwind Traders website.</p>\n</body>\n</html>"
+      ],
+      "answer": [
+       "<!DOCTYPE html>",
+       "<html>",
+       "<head>",
+       "<title>Northwind Traders</title>",
+       "</head>",
+       "<body>",
+       "<p>Welcome to the Northwind Traders website.</p>",
+       "</body>",
+       "<!DOCTYPE html>\n<html>\n<head>\n<title>Northwind Traders</title>\n</head>\n<body>\n<p>Welcome to the Northwind Traders website.</p>\n</body>\n</html>"
+      ],
+      "preview": " <!DOCTYPE html>\n<html>\n<head>\n<title>Northwind Traders</title>\n</head>\n<body>\n<p>Welcome to the Northwind Traders website.</p>\n</body>\n</html>"
+     }
+    },
+    {
+     "taskId": 12,
+     "instruction": "You are creating a simple HTML page that displays the text, Hello World. You must ensure that the markup is well-formed and conforms to industry best practices. How should you construct the page? To answer, drag the appropriate HTML tags to the correct HTML tags to the correct HTML tag locations. Each tag may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.",
+     "correctAnswer": "Completed answer area (standard well-formed structure): <!DOCTYPE html> <html> <head> <title>Hello World</title> </head> <body> <p>Hello World</p> </body> </html> Reference: https://www.w3schools.com/tags/tag_body.asp",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q12 (page 44)",
+     "item": {
+      "type": "sequence",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating a simple HTML page that displays the text, Hello World. You must ensure that the markup is well-formed and conforms to\nindustry best practices.\nHow should you construct the page? To answer, drag the appropriate HTML tags to the correct HTML tags to the correct HTML tag locations.\nEach tag may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content."
+       }
+      ],
+      "source": "page 44",
+      "blocks": [
+       "<!DOCTYPE html>",
+       "<html>\n<head>\n<title>Hello World</title>\n</head>\n<body>\n<p>Hello World</p>\n</body>\n</html>",
+       "Reference: https://www.w3schools.com/tags/tag_body.asp"
+      ],
+      "answer": [
+       "<!DOCTYPE html>",
+       "<html>\n<head>\n<title>Hello World</title>\n</head>\n<body>\n<p>Hello World</p>\n</body>\n</html>",
+       "Reference: https://www.w3schools.com/tags/tag_body.asp"
+      ],
+      "preview": "<!DOCTYPE html>\n<html>\n<head>\n<title>Hello World</title>\n</head>\n<body>\n<p>Hello World</p>\n</body>\n</html>\nReference: https://www.w3schools.com/tags/tag_body.asp",
+      "derived": true
+     }
+    },
+    {
+     "taskId": 13,
+     "instruction": "You are designing a webpage for Contoso by using HTML. You need to create content for the head section. Which four markup segments should you use? To answer, move the appropriate markup segments from the list of markup segments to the answer area and arrange them in the correct order. NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.",
+     "correctAnswer": "Correct order: 1. <!DOCTYPE html> 2. <head> 3. <title>About Contoso</title> 4. </head> Completed answer area: <!DOCTYPE html> <head> <title>About Contoso</title> </head> Unused options: <meta charset=\"utf-8\">, <header>New Releases</header>, <h3>Contact Us</h3>, <meta enctype=\"utf-8>",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q13 (page 45)",
+     "item": {
+      "type": "sequence",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are designing a webpage for Contoso by using HTML.\nYou need to create content for the head section.\nWhich four markup segments should you use? To answer, move the appropriate markup segments from the list of markup segments to the\nanswer area and arrange them in the correct order.\nNOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select."
+       }
+      ],
+      "source": "page 45",
+      "blocks": [
+       "<meta charset=\"utf-8\">\n<!DOCTYPE html>\n<title>About Contoso</title>\n<header>New Releases</header>\n</head>",
+       "<h3>Contact Us</h3>",
+       "<head>\n<meta enctype=\"utf-8>",
+       "<!DOCTYPE html>",
+       "<head>",
+       "<title>About Contoso</title>",
+       "<!DOCTYPE html>\n<head>\n<title>About Contoso</title>\n</head>"
+      ],
+      "answer": [
+       "<!DOCTYPE html>",
+       "<head>",
+       "<title>About Contoso</title>",
+       "<!DOCTYPE html>\n<head>\n<title>About Contoso</title>\n</head>"
+      ],
+      "preview": " <!DOCTYPE html>\n<head>\n<title>About Contoso</title>\n</head>"
+     }
+    },
+    {
+     "taskId": 14,
+     "instruction": "You are creating a home page for Blue Yonder Airlines. The page will use JavaScript. If a browser does not support JavaScript, the following message must be displayed: Your browser does not support JavaScript! For the Blue Yonder Airlines home page, match the metadata element to the content or attribute-value pair. To answer, drag the appropriate metadata element from the column on the left to its content or attribute-value pair on the right. Each metadata element may be used once, more than once, or not at all. NOTE: Each correct selection is worth one point.",
+     "correctAnswer": "Answer Key: <base> → href=\"style.css\" <script> → src=\"/js/form.js\" <title> → Blue Yonder Airlines <noscript> → Your browser does not support JavaScript! Unused option: <meta>",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q14 (page 46)",
+     "item": {
+      "type": "match",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating a home page for Blue Yonder Airlines. The page will use JavaScript. If a browser does not support JavaScript, the following\nmessage must be displayed:\nYour browser does not support JavaScript!\nFor the Blue Yonder Airlines home page, match the metadata element to the content or attribute-value pair. To answer, drag the appropriate\nmetadata element from the column on the left to its content or attribute-value pair on the right. Each metadata element may be used once, more\nthan once, or not at all.\nNOTE: Each correct selection is worth one point."
+       }
+      ],
+      "source": "page 46",
+      "zones": [
+       {
+        "id": "z1",
+        "label": "href=\"style.css\""
+       },
+       {
+        "id": "z2",
+        "label": "src=\"/js/form.js\""
+       },
+       {
+        "id": "z3",
+        "label": "Blue Yonder Airlines"
+       },
+       {
+        "id": "z4",
+        "label": "Your browser does not support JavaScript!"
+       }
+      ],
+      "tokens": [
+       {
+        "id": "t1",
+        "text": "<base>",
+        "zone": "z1"
+       },
+       {
+        "id": "t2",
+        "text": "<script>",
+        "zone": "z2"
+       },
+       {
+        "id": "t3",
+        "text": "<title>",
+        "zone": "z3"
+       },
+       {
+        "id": "t4",
+        "text": "<noscript>",
+        "zone": "z4"
+       },
+       {
+        "id": "t5",
+        "text": "<meta>",
+        "zone": null
+       }
+      ]
+     }
+    },
+    {
+     "taskId": 15,
+     "instruction": "You are designing a webpage for your company. The page must be responsive so that it can be viewed on both mobile and desktop browsers. On mobile browsers, or those with a screen width of less than 768 pixels, you want to display a welcome background image named SmalLogo.png. On all other browsers, you want to display a welcome background image named NormalLogo.png. How should you complete the code? To answer, select the appropriate code segment in the answer area. NOTE: Each correct selection is worth one point.",
+     "correctAnswer": ".welcome { background-image: url ( NormalLogo.png ); } @media only screen and ( max-width : 768px ) { .welcome { background-image: url ( SmalLogo.png ); } } Answer Key: 1. NormalLogo.png 2. max-width 3. SmalLogo.png",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q15 (page 47)",
+     "item": {
+      "type": "hotarea",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are designing a webpage for your company. The page must be responsive so that it can be viewed on both mobile and desktop browsers.\nOn mobile browsers, or those with a screen width of less than 768 pixels, you want to display a welcome background image named\nSmalLogo.png. On all other browsers, you want to display a welcome background image named NormalLogo.png.\nHow should you complete the code? To answer, select the appropriate code segment in the answer area.\nNOTE: Each correct selection is worth one point."
+       }
+      ],
+      "source": "page 47",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "NormalLogo.png",
+         "SmalLogo.png",
+         "min-width",
+         "max-width"
+        ],
+        "answer": "NormalLogo.png"
+       },
+       {
+        "id": 2,
+        "options": [
+         "NormalLogo.png",
+         "SmalLogo.png",
+         "min-width",
+         "max-width"
+        ],
+        "answer": "max-width"
+       },
+       {
+        "id": 3,
+        "options": [
+         "NormalLogo.png",
+         "SmalLogo.png",
+         "min-width",
+         "max-width"
+        ],
+        "answer": "SmalLogo.png"
+       }
+      ],
+      "pool": [
+       "NormalLogo.png",
+       "SmalLogo.png",
+       "min-width",
+       "max-width"
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 16,
+     "instruction": "A webpage contains the following HTML: For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.",
+     "correctAnswer": "References: https://www.w3schools.com/css/css_positioning.asp Source limitation: the supplied Exam F PDF contains image-based exhibits/answer areas for this item; those image contents were not present in the extracted text layer.",
+     "explanation": "References: https://www.w3schools.com/css/css_positioning.asp",
+     "ref": "Exam F - HTML/CSS Reviewer - Q16 (page 48)",
+     "item": {
+      "type": "text",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "A webpage contains the following HTML:\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point."
+       }
+      ],
+      "source": "page 48",
+      "unavailable": true
+     }
+    },
+    {
+     "taskId": 17,
+     "instruction": "This question requires that you evaluate the underlined text to determine if it is correct. You are reviewing a stylesheet created by a member of your team. The stylesheet includes a style that is defined as follows: .product { color: #000000; background-color: #00FF00; } You apply the productBox style to a <div>. The <div> will be displayed with white text on a green background. Review the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect, select the answer choice that makes the statement correct.",
+     "correctAnswer": "C. black text on a green background. References: https://www.w3schools.com/colors/colors_shades.asp",
+     "explanation": "References: https://www.w3schools.com/colors/colors_shades.asp",
+     "ref": "Exam F - HTML/CSS Reviewer - Q17 (page 49)",
+     "item": {
+      "type": "choice",
+      "declaredType": "Multiple Choice",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "This question requires that you evaluate the underlined text to determine if it is correct.\nYou are reviewing a stylesheet created by a member of your team. The stylesheet includes a style that is defined as follows:"
+       },
+       {
+        "kind": "code",
+        "text": ".product {\ncolor: #000000;\nbackground-color: #00FF00;\n}"
+       },
+       {
+        "kind": "p",
+        "text": "You apply the productBox style to a <div>.\nThe <div> will be displayed with white text on a green background.\nReview the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect, select the answer choice\nthat makes the statement correct."
+       }
+      ],
+      "source": "page 49",
+      "options": [
+       {
+        "id": "A",
+        "text": "No change is needed."
+       },
+       {
+        "id": "B",
+        "text": "white text on a red background."
+       },
+       {
+        "id": "C",
+        "text": "black text on a green background."
+       },
+       {
+        "id": "D",
+        "text": "black text on a blue background."
+       }
+      ],
+      "answer": [
+       "C"
+      ]
+     }
+    },
+    {
+     "taskId": 18,
+     "instruction": "You are creating an About Us webpage for Northwind Traders. You want to complete the CSS rule set to display the paragraph as shown in the example. How should you complete the code? To answer, select the appropriate CSS properties in the answer area. NOTE: Each correct selection is worth one point.",
+     "correctAnswer": "<style> p { color : #000ff; line-height : 50px; font-size : 1.5em; font-style : italic; } </style> Answer Key: 1. color 2. line-height 3. font-size 4. font-style",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q18 (page 50)",
+     "item": {
+      "type": "hotarea",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating an About Us webpage for Northwind Traders.\nYou want to complete the CSS rule set to display the paragraph as shown in the example.\nHow should you complete the code? To answer, select the appropriate CSS properties in the answer area.\nNOTE: Each correct selection is worth one point."
+       }
+      ],
+      "source": "page 50",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 4
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "color",
+         "font-variant",
+         "border-color",
+         "background-color",
+         "position",
+         "line-height",
+         "text-indent",
+         "letter-spacing",
+         "font-size",
+         "font-weight",
+         "font-style",
+         "font-family"
+        ],
+        "answer": "color"
+       },
+       {
+        "id": 2,
+        "options": [
+         "color",
+         "font-variant",
+         "border-color",
+         "background-color",
+         "position",
+         "line-height",
+         "text-indent",
+         "letter-spacing",
+         "font-size",
+         "font-weight",
+         "font-style",
+         "font-family"
+        ],
+        "answer": "line-height"
+       },
+       {
+        "id": 3,
+        "options": [
+         "color",
+         "font-variant",
+         "border-color",
+         "background-color",
+         "position",
+         "line-height",
+         "text-indent",
+         "letter-spacing",
+         "font-size",
+         "font-weight",
+         "font-style",
+         "font-family"
+        ],
+        "answer": "font-size"
+       },
+       {
+        "id": 4,
+        "options": [
+         "color",
+         "font-variant",
+         "border-color",
+         "background-color",
+         "position",
+         "line-height",
+         "text-indent",
+         "letter-spacing",
+         "font-size",
+         "font-weight",
+         "font-style",
+         "font-family"
+        ],
+        "answer": "font-style"
+       }
+      ],
+      "pool": [
+       "color",
+       "font-variant",
+       "border-color",
+       "background-color",
+       "position",
+       "line-height",
+       "text-indent",
+       "letter-spacing",
+       "font-size",
+       "font-weight",
+       "font-style",
+       "font-family"
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 19,
+     "instruction": "You are analyzing the following CSS for an element on a page: background: #0000FF url(\"Watermark.png\") repeat-x right; For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+     "correctAnswer": "Correct interpretation of the visible CSS: Background color: blue (#0000FF) Background image: Watermark.png Repeat: horizontally (repeat-x) Position: right The exact Yes/No statement list and source answer selections are image-based and were not text-extracted. References: https://www.w3schools.com/cssref/pr_background-repeat.asp https://www.w3schools.com/cssref/pr_pos_right.asp Source limitation: the supplied Exam F PDF contains image-based exhibits/answer areas for this item; those image contents were not present in the extracted text layer.",
+     "explanation": "References:",
+     "ref": "Exam F - HTML/CSS Reviewer - Q19 (page 51)",
+     "item": {
+      "type": "text",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are analyzing the following CSS for an element on a page:"
+       },
+       {
+        "kind": "code",
+        "text": " background: #0000FF url(\"Watermark.png\") repeat-x right;"
+       },
+       {
+        "kind": "p",
+        "text": "For each of the following statements, select Yes if the statement is true. Otherwise, select No."
+       }
+      ],
+      "source": "page 51",
+      "unavailable": true
+     }
+    },
+    {
+     "taskId": 20,
+     "instruction": "This question requires that you evaluate the underlined text to determine if it is correct. Static positioning places an element at specific coordinates relative to the page or the element's container. Review the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect, select the answer choice that makes the statement correct.",
+     "correctAnswer": "C. Relative positioning References: https://www.w3schools.com/css/css_positioning.asp",
+     "explanation": "References: https://www.w3schools.com/css/css_positioning.asp",
+     "ref": "Exam F - HTML/CSS Reviewer - Q20 (page 52)",
+     "item": {
+      "type": "choice",
+      "declaredType": "Multiple Choice",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "This question requires that you evaluate the underlined text to determine if it is correct.\nStatic positioning places an element at specific coordinates relative to the page or the element's container.\nReview the underlined text. If it makes the statement correct, select \"No change is needed.\" If the statement is incorrect, select the answer choice\nthat makes the statement correct."
+       }
+      ],
+      "source": "page 52",
+      "options": [
+       {
+        "id": "A",
+        "text": "No change is needed."
+       },
+       {
+        "id": "B",
+        "text": "Absolute positioning"
+       },
+       {
+        "id": "C",
+        "text": "Relative positioning"
+       },
+       {
+        "id": "D",
+        "text": "Fixed positioning"
+       }
+      ],
+      "answer": [
+       "C"
+      ]
+     }
+    },
+    {
+     "taskId": 21,
+     "instruction": "You need to create a stylesheet that will cause all h1 header text to appear in blue, using the Arial font with a size of 20 pixels. The text should always be bold and center-aligned. How should you complete the code? To answer, drag the appropriate CSS property to the correct locations. Each property may be used once, more than once, or not at all.",
+     "correctAnswer": "h1 { color: blue; font-family: arial; font-size: 20px; font-weight: bold; text-align: center; } Answer Key: 1. color: 2. font-family: 3. font-size: 4. font-weight: 5. text-align: Unused options: font-style: text-decoration-color: vertical-align:",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q21 (page 53)",
+     "item": {
+      "type": "dropblank",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You need to create a stylesheet that will cause all h1 header text to appear in blue, using the Arial font with a size of 20 pixels. The text should\nalways be bold and center-aligned.\nHow should you complete the code? To answer, drag the appropriate CSS property to the correct locations. Each property may be used once,\nmore than once, or not at all."
+       }
+      ],
+      "source": "page 53",
+      "template": [
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 3
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 4
+       },
+       {
+        "text": " ______ "
+       },
+       {
+        "blank": 5
+       },
+       {
+        "text": " ______ "
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "options": [
+         "color:",
+         "font-family:",
+         "font-size:",
+         "font-style:",
+         "font-weight:",
+         "text-align:",
+         "text-decoration-color:",
+         "vertical-align:"
+        ],
+        "answer": "color:"
+       },
+       {
+        "id": 2,
+        "options": [
+         "color:",
+         "font-family:",
+         "font-size:",
+         "font-style:",
+         "font-weight:",
+         "text-align:",
+         "text-decoration-color:",
+         "vertical-align:"
+        ],
+        "answer": "font-family:"
+       },
+       {
+        "id": 3,
+        "options": [
+         "color:",
+         "font-family:",
+         "font-size:",
+         "font-style:",
+         "font-weight:",
+         "text-align:",
+         "text-decoration-color:",
+         "vertical-align:"
+        ],
+        "answer": "font-size:"
+       },
+       {
+        "id": 4,
+        "options": [
+         "color:",
+         "font-family:",
+         "font-size:",
+         "font-style:",
+         "font-weight:",
+         "text-align:",
+         "text-decoration-color:",
+         "vertical-align:"
+        ],
+        "answer": "font-weight:"
+       },
+       {
+        "id": 5,
+        "options": [
+         "color:",
+         "font-family:",
+         "font-size:",
+         "font-style:",
+         "font-weight:",
+         "text-align:",
+         "text-decoration-color:",
+         "vertical-align:"
+        ],
+        "answer": "text-align:"
+       }
+      ],
+      "pool": [
+       "color:",
+       "font-family:",
+       "font-size:",
+       "font-style:",
+       "font-weight:",
+       "text-align:",
+       "text-decoration-color:",
+       "vertical-align:"
+      ],
+      "reusable": true
+     }
+    },
+    {
+     "taskId": 22,
+     "instruction": "You are designing a webpage for your company. You want to display an image named contoso.png on the page. If the user's Internet connection is slow, or if the user is visually impaired, you want the text Contoso Logo to be displayed or read aloud. How should you complete the markup? To answer, select the appropriate markup segments in the answer area.",
+     "correctAnswer": "Completed answer area: <img src=\"contoso.png\" alt=\"Contoso Logo\"> Answer: img, src, alt Reference: https://www.w3schools.com/tags/default.asp",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q22 (page 54)",
+     "item": {
+      "type": "text",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are designing a webpage for your company. You want to display an image named contoso.png on the page. If the user's Internet connection\nis slow, or if the user is visually impaired, you want the text Contoso Logo to be displayed or read aloud.\nHow should you complete the markup? To answer, select the appropriate markup segments in the answer area."
+       }
+      ],
+      "source": "page 54",
+      "unavailable": true
+     }
+    },
+    {
+     "taskId": 23,
+     "instruction": "You are creating a web page that displays a How-To video. When accessing the video, the user must be able to play, pause, and seek. The file name of the video is HowTo.mp4, and exists in the same folder as the webpage. If the user's browser does not support HTML5, the page must display this message: Your browser does not support playing this video. How should you construct the markup? To answer, drag the appropriate markup segments to the correct locations. Each markup segment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.",
+     "correctAnswer": "Completed answer area: <video controls> <source src=\"HowTo.mp4\" type=\"video/mp4\"> Your browser does not support playing this video. </video> Reference: https://www.w3schools.com/tags/tag_video.asp",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q23 (page 55)",
+     "item": {
+      "type": "sequence",
+      "declaredType": "Drag and Drop",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You are creating a web page that displays a How-To video. When accessing the video, the user must be able to play, pause, and seek. The file\nname of the video is HowTo.mp4, and exists in the same folder as the webpage.\nIf the user's browser does not support HTML5, the page must display this message: Your browser does not support playing this video.\nHow should you construct the markup? To answer, drag the appropriate markup segments to the correct locations. Each markup segment may be\nused once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content."
+       }
+      ],
+      "source": "page 55",
+      "blocks": [
+       "<video controls>",
+       "<source src=\"HowTo.mp4\" type=\"video/mp4\">",
+       "Your browser does not support playing this video.",
+       "</video>",
+       "Reference: https://www.w3schools.com/tags/tag_video.asp"
+      ],
+      "answer": [
+       "<video controls>",
+       "<source src=\"HowTo.mp4\" type=\"video/mp4\">",
+       "Your browser does not support playing this video.",
+       "</video>",
+       "Reference: https://www.w3schools.com/tags/tag_video.asp"
+      ],
+      "preview": "<video controls>\n<source src=\"HowTo.mp4\" type=\"video/mp4\">\nYour browser does not support playing this video.\n</video>\nReference: https://www.w3schools.com/tags/tag_video.asp",
+      "derived": true
+     }
+    },
+    {
+     "taskId": 24,
+     "instruction": "You need to display an image of an HTML5 logo in one of your webpages. If the page renders slowly, the text \"HTML Icon\" should display as the image loads. How should you complete the markup? The answer, select the appropriate markup segments in the answer area.",
+     "correctAnswer": "Completed answer area: <img src=\"[HTML5 logo image source]\" alt=\"HTML Icon\"> Answer: img, src, alt Reference: https://www.w3schools.com/tags/att_img_width.asp",
+     "explanation": "",
+     "ref": "Exam F - HTML/CSS Reviewer - Q24 (page 56)",
+     "item": {
+      "type": "text",
+      "declaredType": "Hotspot",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "You need to display an image of an HTML5 logo in one of your webpages. If the page renders slowly, the text \"HTML Icon\" should display as the\nimage loads.\nHow should you complete the markup? The answer, select the appropriate markup segments in the answer area."
+       }
+      ],
+      "source": "page 56",
+      "unavailable": true
+     }
+    }
+   ]
+  },
+  {
+   "projectId": 6,
+   "projectName": "Extra Practice (authored)",
+   "durationMinutes": 10,
+   "tasks": [
+    {
+     "taskId": 1,
+     "instruction": "Which of the following are valid ways to attach an external stylesheet?",
+     "correctAnswer": "A and C. <link rel=\"stylesheet\"> is the standard hook; @import also loads a stylesheet from CSS.",
+     "explanation": "References: https://www.w3schools.com/css/css_intro.asp",
+     "ref": "Authored practice item 1",
+     "item": {
+      "type": "multi",
+      "declaredType": "Multiple Select (authored)",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "Which of the following are valid ways to attach an external stylesheet to an HTML document? Select all that apply."
+       }
+      ],
+      "source": "authored",
+      "options": [
+       {
+        "id": "A",
+        "text": "<link rel=\"stylesheet\" href=\"site.css\">"
+       },
+       {
+        "id": "B",
+        "text": "<style src=\"site.css\">"
+       },
+       {
+        "id": "C",
+        "text": "@import url('site.css'); inside a style element or stylesheet"
+       },
+       {
+        "id": "D",
+        "text": "<script href=\"site.css\">"
+       },
+       {
+        "id": "E",
+        "text": "<a rel=\"stylesheet\" href=\"site.css\">"
+       }
+      ],
+      "answer": [
+       "A",
+       "C"
+      ]
+     }
+    },
+    {
+     "taskId": 2,
+     "instruction": "Match each CSS declaration to the box-model layer it affects.",
+     "correctAnswer": "Content box: background-color, width/height. Padding: padding. Border: border, border-radius. Margin: margin, outline.",
+     "explanation": "",
+     "ref": "Authored practice item 2",
+     "item": {
+      "type": "match",
+      "declaredType": "Drag and Drop (authored)",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "Match each CSS declaration to the box-model layer it affects. Drag every term onto the correct layer."
+       }
+      ],
+      "source": "authored",
+      "zones": [
+       {
+        "id": "content",
+        "label": "Content box"
+       },
+       {
+        "id": "padding",
+        "label": "Padding"
+       },
+       {
+        "id": "border",
+        "label": "Border"
+       },
+       {
+        "id": "margin",
+        "label": "Margin"
+       }
+      ],
+      "tokens": [
+       {
+        "id": "t1",
+        "text": "background-color",
+        "zone": "content"
+       },
+       {
+        "id": "t2",
+        "text": "width / height",
+        "zone": "content"
+       },
+       {
+        "id": "t3",
+        "text": "padding",
+        "zone": "padding"
+       },
+       {
+        "id": "t4",
+        "text": "border",
+        "zone": "border"
+       },
+       {
+        "id": "t5",
+        "text": "border-radius",
+        "zone": "border"
+       },
+       {
+        "id": "t6",
+        "text": "margin",
+        "zone": "margin"
+       },
+       {
+        "id": "t7",
+        "text": "outline",
+        "zone": "margin"
+       }
+      ]
+     }
+    },
+    {
+     "taskId": 3,
+     "instruction": "Complete the media query for viewports 600 pixels wide or less.",
+     "correctAnswer": "max-width : 600px",
+     "explanation": "",
+     "ref": "Authored practice item 3",
+     "item": {
+      "type": "fillblank",
+      "declaredType": "Fill in the Blank (authored)",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "Complete the media query so it applies when the viewport is 600 pixels wide or less. Type each missing value."
+       }
+      ],
+      "source": "authored",
+      "template": [
+       {
+        "text": "@media screen and ( "
+       },
+       {
+        "blank": 1
+       },
+       {
+        "text": " : "
+       },
+       {
+        "blank": 2
+       },
+       {
+        "text": " ) {\n  body { font-size: 14px; }\n}"
+       }
+      ],
+      "blanks": [
+       {
+        "id": 1,
+        "accept": [
+         "max-width"
+        ],
+        "answer": "max-width"
+       },
+       {
+        "id": 2,
+        "accept": [
+         "600px",
+         "600 px",
+         "600"
+        ],
+        "answer": "600px"
+       }
+      ]
+     }
+    },
+    {
+     "taskId": 4,
+     "instruction": "Click the region painted by the CSS rule.",
+     "correctAnswer": "Sidebar. The grid declares a 104 px track then one flexible track, and the sidebar is pinned to track 1 across both rows.",
+     "explanation": "",
+     "ref": "Authored practice item 4",
+     "item": {
+      "type": "hotarea",
+      "declaredType": "Hot Area (authored)",
+      "prompt": [
+       {
+        "kind": "p",
+        "text": "A page uses a two-column CSS grid. Click the region of the mock browser window that the rule below paints."
+       }
+      ],
+      "source": "authored",
+      "graphic": {
+       "viewBox": "0 0 460 200",
+       "note": "Mock browser window - click exactly one region.",
+       "regions": [
+        {
+         "id": "r1",
+         "x": 12,
+         "y": 40,
+         "w": 436,
+         "h": 26,
+         "label": "Toolbar"
+        },
+        {
+         "id": "r2",
+         "x": 12,
+         "y": 78,
+         "w": 104,
+         "h": 104,
+         "label": "Sidebar"
+        },
+        {
+         "id": "r3",
+         "x": 128,
+         "y": 78,
+         "w": 320,
+         "h": 60,
+         "label": "Main"
+        },
+        {
+         "id": "r4",
+         "x": 128,
+         "y": 146,
+         "w": 320,
+         "h": 36,
+         "label": "Footer"
+        }
+       ]
+      },
+      "code": "body { display: grid; grid-template-columns: 104px 1fr; }\n.sidebar { grid-column: 1; grid-row: 1 / span 2; }",
+      "options": [
+       {
+        "id": "r1",
+        "text": "Toolbar"
+       },
+       {
+        "id": "r2",
+        "text": "Sidebar"
+       },
+       {
+        "id": "r3",
+        "text": "Main"
+       },
+       {
+        "id": "r4",
+        "text": "Footer"
+       }
+      ],
+      "answer": [
+       "r2"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

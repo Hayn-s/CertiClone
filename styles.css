@@ -1,0 +1,25 @@
+/* CertiClone — Certiport Compass study simulator (study tool, no lockdown/proctoring) */
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;overflow:hidden;font-family:"Segoe UI",Tahoma,Arial,sans-serif;background:#dcdcdc;color:#222}
+button{font-family:inherit;cursor:pointer}
+#setup-screen{height:100vh;overflow-y:auto;display:flex;justify-content:center;padding:28px 16px;background:linear-gradient(180deg,#274b73,#16283d)}
+.setup-card{width:min(860px,100%);background:#fff;border-radius:10px;padding:28px 30px;box-shadow:0 10px 40px rgba(0,0,0,.45);height:fit-content}
+.setup-card h1{margin:0 0 4px;color:#1f6fbf;font-size:26px}
+.setup-card .sub{color:#555;margin:0 0 14px}
+.setup-stats{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 18px}
+.stat{background:#eef4fa;border:1px solid #bcd3ea;border-radius:6px;padding:8px 14px;font-size:14px}
+.stat b{color:#1f6fbf}
+.btn{display:inline-block;border:1px solid #8a8a8a;border-radius:4px;padding:9px 16px;font-size:14px;background:linear-gradient(180deg,#fff,#d9d9d9);color:#111}
+.btn:hover{filter:brightness(1.05)}
+.btn.primary{background:linear-gradient(180deg,#3f8fd6,#1f6fbf);border-color:#155a9c;color:#fff;font-weight:600}
+.btn.ghost{background:#f2f2f2}
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}
+#setup-error{display:none;background:#fdecea;border:1px solid #c62828;color:#a12020;border-radius:6px;padding:10px 12px;margin:10px 0;font-size:14px;white-space:pre-wrap}
+#paste-area{width:100%;min-height:130px;font-family:Consolas,monospace;font-size:12px;border:1px solid #999;border-radius:6px;padding:8px}
+details.schema{margin-top:14px;font-size:13px;background:#f7f7f7;border:1px solid #ccc;border-radius:6px;padding:10px 12px}
+details.schema pre{background:#1e1e1e;color:#d7e8ff;padding:12px;border-radius:6px;overflow-x:auto;font-size:12px}
+#exam-app{display:flex;flex-direction:column;height:100vh}
+#workspace{flex:0 0 70%;min-height:0;display:flex;flex-direction:column;background:#1e1e1e;color:#ddd}
+.ws-toolbar{display:flex;align-items:center;gap:8px;background:#252526;border-bottom:1px solid #000;padding:6px 10px;flex:0 0 auto}
+.ws-title{font-size:13px;color:#bbb;margin-right:auto}
+.ws-title b{color:#fff}
